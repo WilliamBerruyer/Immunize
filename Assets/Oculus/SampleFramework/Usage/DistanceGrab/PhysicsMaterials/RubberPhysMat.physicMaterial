@@ -1,16 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!134 &13400000
-PhysicMaterial:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: RubberPhysMat
-  dynamicFriction: .600000024
-  staticFriction: .600000024
-  bounciness: .800000012
-  frictionCombine: 0
-  bounceCombine: 3
-  frictionDirection2: {x: 0, y: 0, z: 0}
-  dynamicFriction2: 0
-  staticFriction2: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e4acbc63ffbd8d23efec9c40206bd5e8570d4245b7e0ccbef0ad66eeff4a07a
+size 401

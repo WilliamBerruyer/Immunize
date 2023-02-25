@@ -1,29 +1,3 @@
-// (c) Meta Platforms, Inc. and affiliates. Confidential and proprietary.
-
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEditor.UI;
-using UnityEditor;
-
-[CustomEditor(typeof(MediaPlayerImage), true)]
-public class MediaPlayerImageEditor : ImageEditor
-{
-
-    SerializedProperty m_ButtonType;
-
-    protected override void OnEnable()
-    {
-        base.OnEnable();
-
-        m_ButtonType = serializedObject.FindProperty("m_ButtonType");
-    }
-
-    public override void OnInspectorGUI()
-    {
-        base.OnInspectorGUI();
-
-        EditorGUILayout.PropertyField(m_ButtonType);
-        serializedObject.ApplyModifiedProperties();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f096dde262d2a498c1e5abe043a282a49b115a48ac929a3f42378dbe0c8a94b4
+size 675

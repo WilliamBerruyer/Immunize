@@ -1,22 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform.Models
-{
-  using System;
-  using System.Collections;
-  using Oculus.Platform.Models;
-  using System.Collections.Generic;
-  using UnityEngine;
-
-  public class OrgScopedID
-  {
-    public readonly UInt64 ID;
-
-
-    public OrgScopedID(IntPtr o)
-    {
-      ID = CAPI.ovr_OrgScopedID_GetID(o);
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a1abf2f42543c3877682a526dc320a236c65f345be5baea85159297688d4c04
+size 408

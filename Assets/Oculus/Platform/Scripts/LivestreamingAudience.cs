@@ -1,24 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform
-{
-
-  using Description = System.ComponentModel.DescriptionAttribute;
-
-  public enum LivestreamingAudience : int
-  {
-    [Description("UNKNOWN")]
-    Unknown,
-
-    [Description("PUBLIC")]
-    Public,
-
-    [Description("FRIENDS")]
-    Friends,
-
-    [Description("ONLY_ME")]
-    OnlyMe,
-
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b2d3fd7a70dcd47ac6cf0f61f1ab1afac0484e28065d82950104f810f884183
+size 399

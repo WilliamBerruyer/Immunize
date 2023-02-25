@@ -1,15 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class LiquidAmmoDisplay : AmmoDisplay
-{
-    public LiquidContainer Container;
-    public float MinLiquidAmount;
-    public float MaxLiquidAmount;
-    
-    public override void UpdateAmount(int current, int max)
-    {
-        Container.ChangeLiquidAmount(Mathf.Lerp(MinLiquidAmount, MaxLiquidAmount, current/(float)max));
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:217b346c6f2769e04f948aaed971aea5403eac8e4c3683e36156bea5640bfec3
+size 434

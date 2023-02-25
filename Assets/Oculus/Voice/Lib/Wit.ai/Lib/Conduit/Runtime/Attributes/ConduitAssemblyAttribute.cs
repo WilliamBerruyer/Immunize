@@ -1,21 +1,3 @@
-﻿/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using System;
-
-namespace Meta.Conduit
-{
-    /// <summary>
-    /// Marks an assembly as Conduit-enabled to allow quick filtering.
-    /// This can show anywhere in the assembly, but typically would go in AssemblyInfo.cs if one exists.
-    /// </summary>
-    [AttributeUsage(AttributeTargets.Assembly)]
-    public class ConduitAssemblyAttribute : Attribute
-    {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:de434d76a91d254b5a647bfde3fa31ed101e1bb304d3a9bd69022866c802f9a9
+size 604

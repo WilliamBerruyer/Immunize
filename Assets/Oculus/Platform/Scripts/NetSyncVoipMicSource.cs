@@ -1,21 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform
-{
-
-  using Description = System.ComponentModel.DescriptionAttribute;
-
-  public enum NetSyncVoipMicSource : int
-  {
-    [Description("UNKNOWN")]
-    Unknown,
-
-    [Description("NONE")]
-    None,
-
-    [Description("INTERNAL")]
-    Internal,
-
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b50b30d284d12be30a7fc8b24be39d03119ef82b9321d14bdedde64259c94839
+size 354

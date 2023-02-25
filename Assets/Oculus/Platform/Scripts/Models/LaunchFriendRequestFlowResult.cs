@@ -1,26 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform.Models
-{
-  using System;
-  using System.Collections;
-  using Oculus.Platform.Models;
-  using System.Collections.Generic;
-  using UnityEngine;
-
-  public class LaunchFriendRequestFlowResult
-  {
-    /// Whether the viewer chose to cancel the friend request flow.
-    public readonly bool DidCancel;
-    /// Whether the viewer successfully sent the friend request.
-    public readonly bool DidSendRequest;
-
-
-    public LaunchFriendRequestFlowResult(IntPtr o)
-    {
-      DidCancel = CAPI.ovr_LaunchFriendRequestFlowResult_GetDidCancel(o);
-      DidSendRequest = CAPI.ovr_LaunchFriendRequestFlowResult_GetDidSendRequest(o);
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:52f7470ffe3ea5993999c590efaad6b862021157d85d61574c163c55e21fb794
+size 739

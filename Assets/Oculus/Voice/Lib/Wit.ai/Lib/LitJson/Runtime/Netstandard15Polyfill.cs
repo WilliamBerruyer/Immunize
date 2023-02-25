@@ -1,24 +1,3 @@
-#if NETSTANDARD1_5
-using System;
-using System.Reflection;
-namespace Meta.Wit.LitJson
-{
-    internal static class Netstandard15Polyfill
-    {
-        internal static Type GetInterface(this Type type, string name)
-        {
-            return type.GetTypeInfo().GetInterface(name); 
-        }
-
-        internal static bool IsClass(this Type type)
-        {
-            return type.GetTypeInfo().IsClass;
-        }
-
-        internal static bool IsEnum(this Type type)
-        {
-            return type.GetTypeInfo().IsEnum;
-        }
-    }
-}
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:998fa443c61a7287b9779017689df574bfb5a3ad5b4202be5619e0555fc17366
+size 546

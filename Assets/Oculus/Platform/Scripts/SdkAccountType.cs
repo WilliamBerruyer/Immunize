@@ -1,21 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform
-{
-
-  using Description = System.ComponentModel.DescriptionAttribute;
-
-  public enum SdkAccountType : int
-  {
-    [Description("UNKNOWN")]
-    Unknown,
-
-    [Description("OCULUS")]
-    Oculus,
-
-    [Description("FACEBOOK_GAMEROOM")]
-    FacebookGameroom,
-
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ee133fd08bf2b0a6885212ce19da489ab8b0c44c3c91d9f8f26b17d20a2a686
+size 369

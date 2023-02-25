@@ -1,14 +1,3 @@
-// (c) Meta Platforms, Inc. and affiliates. Confidential and proprietary.
-
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public static class VectorUtil {
-
-    public static Vector4 ToVector(this Rect rect)
-    {
-        return new Vector4(rect.x, rect.y, rect.width, rect.height);
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc3afebf16c3866297da86ee65d222c7f4acdc5aefa1e9945f4c8101490d07d5
+size 324

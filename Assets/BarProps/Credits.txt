@@ -1,9 +1,3 @@
-All models were modeled in Blender3d and textured in SubstancePainter.
-
-If you use these models just give credit were it is due.
-
-If you have any question or need help please send a email. 
-
-Contact: simplemodelsforme@gmail.com
-
-Thank you!!!!!
+version https://git-lfs.github.com/spec/v1
+oid sha256:248bda02bae93d9c899272e01d1fb8963340262ecae03c84ec3bf9c8dcb464c1
+size 251

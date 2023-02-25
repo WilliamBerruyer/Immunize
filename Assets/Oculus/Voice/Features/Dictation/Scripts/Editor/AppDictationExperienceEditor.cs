@@ -1,17 +1,3 @@
-/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using UnityEditor;
-
-namespace Oculus.Voice.Dictation
-{
-    [CustomEditor(typeof(AppDictationExperience))]
-    public class AppDictationExperienceEditor : Editor
-    {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:03fc18a2eab4cddbba94837ae097ed5897cedc8dedc047d598b94806943d03ad
+size 386

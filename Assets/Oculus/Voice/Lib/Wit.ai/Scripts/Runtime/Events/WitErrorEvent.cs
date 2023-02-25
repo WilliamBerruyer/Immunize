@@ -1,24 +1,3 @@
-﻿/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using System;
-using UnityEngine.Events;
-
-namespace Facebook.WitAi.Events
-{
-    /// <summary>
-    /// An error event with two parameters.
-    ///
-    /// Param 1: error - the type of error that occurred
-    /// Param 2: message - A human readable message describing the error
-    /// </summary>
-    [Serializable]
-    public class WitErrorEvent : UnityEvent<string, string>
-    {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bdbac24505846b97f1624fb98e0905637f431bd72b2db89e05969fb079823742
+size 601

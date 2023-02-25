@@ -1,21 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform
-{
-
-  using Description = System.ComponentModel.DescriptionAttribute;
-
-  public enum ChallengeCreationType : int
-  {
-    [Description("UNKNOWN")]
-    Unknown,
-
-    [Description("USER_CREATED")]
-    UserCreated,
-
-    [Description("DEVELOPER_CREATED")]
-    DeveloperCreated,
-
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:30906d1c47ca22d5482a50b8f3d53c28507d22a42b05b0c5da014dfc29527d34
+size 387

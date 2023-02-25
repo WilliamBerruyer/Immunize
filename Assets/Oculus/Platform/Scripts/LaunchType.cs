@@ -1,27 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform
-{
-
-  using Description = System.ComponentModel.DescriptionAttribute;
-
-  public enum LaunchType : int
-  {
-    [Description("UNKNOWN")]
-    Unknown,
-
-    [Description("NORMAL")]
-    Normal,
-
-    [Description("INVITE")]
-    Invite,
-
-    [Description("COORDINATED")]
-    Coordinated,
-
-    [Description("DEEPLINK")]
-    Deeplink,
-
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b69d22da4a574618662f352af690f57f41c30ca0704be28017806f7e3cdbe1e4
+size 440

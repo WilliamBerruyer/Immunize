@@ -1,18 +1,3 @@
-﻿/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using Facebook.WitAi.Configuration;
-using Facebook.WitAi.Data.Configuration;
-
-namespace Facebook.WitAi.Interfaces
-{
-    public interface IWitRequestProvider
-    {
-        WitRequest CreateWitRequest(WitConfiguration config, WitRequestOptions requestOptions, IDynamicEntitiesProvider[] additionalEntityProviders = null);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:75da87ce2dc46c4c79b86e6bd2be1c7f4d386fd4e6ef98e0fa0d448047b778a7
+size 560

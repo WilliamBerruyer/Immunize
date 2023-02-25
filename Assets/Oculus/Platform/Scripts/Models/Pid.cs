@@ -1,33 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform.Models
-{
-  using System;
-  using System.Collections;
-  using Oculus.Platform.Models;
-  using System.Collections.Generic;
-  using UnityEngine;
-
-  public class Pid
-  {
-    public readonly string Id;
-
-
-    public Pid(IntPtr o)
-    {
-      Id = CAPI.ovr_Pid_GetId(o);
-    }
-  }
-
-  public class PidList : DeserializableList<Pid> {
-    public PidList(IntPtr a) {
-      var count = (int)CAPI.ovr_PidArray_GetSize(a);
-      _Data = new List<Pid>(count);
-      for (int i = 0; i < count; i++) {
-        _Data.Add(new Pid(CAPI.ovr_PidArray_GetElement(a, (UIntPtr)i)));
-      }
-
-    }
-
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:13f72c22b99786dcea9c000057f16796a2d1268638a3a4cbbc64849d3c8b7299
+size 688

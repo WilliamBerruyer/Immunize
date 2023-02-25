@@ -1,35 +1,3 @@
-using UnityEngine;
-
-/*
------------------------
- 
- InspectorNoteAttribute()
- 
------------------------
-*/
-public class InspectorNoteAttribute : PropertyAttribute
-{
-	public readonly string header;
-	public readonly string message;
-
-	public InspectorNoteAttribute(string header, string message = "")
-	{
-		this.header = header;
-		this.message = message;
-	}
-}
-
-/*
------------------------
- 
- InspectorCommentAttribute()
- 
------------------------
-*/
-public class InspectorCommentAttribute : PropertyAttribute {
-	public readonly string message;
-
-	public InspectorCommentAttribute( string message = "" ) {
-		this.message = message;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a4c04c29550a56e67f70f21a4887df34c642f8b35def0cb961ae0a9dbe234aa4
+size 626

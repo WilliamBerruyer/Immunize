@@ -1,22 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform.Models
-{
-  using System;
-  using System.Collections;
-  using Oculus.Platform.Models;
-  using System.Collections.Generic;
-  using UnityEngine;
-
-  public class UserProof
-  {
-    public readonly string Value;
-
-
-    public UserProof(IntPtr o)
-    {
-      Value = CAPI.ovr_UserProof_GetNonce(o);
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5ad721a53ff6de8ee8e455bb1de6bae147ed1a6aae67576e31e7e620bc282c2
+size 411

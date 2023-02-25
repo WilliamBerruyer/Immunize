@@ -1,35 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform
-{
-
-  using Description = System.ComponentModel.DescriptionAttribute;
-
-  public enum RichPresenceExtraContext : int
-  {
-    [Description("UNKNOWN")]
-    Unknown,
-
-    /// Display nothing
-    [Description("NONE")]
-    None,
-
-    /// Display the current amount with the user over the max
-    [Description("CURRENT_CAPACITY")]
-    CurrentCapacity,
-
-    /// Display how long ago the match/game/race/etc started
-    [Description("STARTED_AGO")]
-    StartedAgo,
-
-    /// Display how soon the match/game/race/etc will end
-    [Description("ENDING_IN")]
-    EndingIn,
-
-    /// Display that this user is looking for a match
-    [Description("LOOKING_FOR_A_MATCH")]
-    LookingForAMatch,
-
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:717e20f84f04c5906b9d4659ebe59c89e02c0022bac793812dd1dbe4284e7923
+size 792

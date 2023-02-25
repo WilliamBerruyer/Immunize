@@ -1,22 +1,3 @@
-﻿/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-namespace Meta.Conduit.Editor
-{
-    /// <summary>
-    /// Mediates storage for small data that need to be persisted across projects.
-    /// </summary>
-    internal interface IPersistenceLayer
-    {
-        bool HasKey(string key);
-        void SetString(string key, string value);
-        string GetString(string key);
-        void SetInt(string key, int value);
-        int GetInt(string key);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:63fed29a21cb40edbee1bc3e162dc885e166a67fd3348622345b5e299951eda0
+size 640

@@ -1,26 +1,3 @@
-/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using UnityEngine;
-
-namespace Facebook.WitAi.Utilities
-{
-    public class DynamicRangeAttribute : PropertyAttribute
-    {
-        public string RangeProperty { get; private set; }
-        public float DefaultMin { get; private set; }
-        public float DefaultMax { get; private set; }
-
-        public DynamicRangeAttribute(string rangeProperty, float defaultMin = float.MinValue, float defaultMax = float.MaxValue)
-        {
-            DefaultMin = defaultMin;
-            DefaultMax = defaultMax;
-            RangeProperty = rangeProperty;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:807e4cc6af50e864e2bacca0e0b52cc781e8152601a5ebce425cbcceca3f083c
+size 774

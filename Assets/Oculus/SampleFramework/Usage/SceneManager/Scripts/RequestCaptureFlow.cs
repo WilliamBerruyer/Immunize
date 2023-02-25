@@ -1,22 +1,3 @@
-﻿using System;
-using UnityEngine;
-
-public class RequestCaptureFlow : MonoBehaviour
-{
-    public OVRInput.Button RequestCaptureBtn = OVRInput.Button.Two;
-    private OVRSceneManager _sceneManager;
-
-    private void Start()
-    {
-        _sceneManager = FindObjectOfType<OVRSceneManager>();
-    }
-
-    // Update is called once per frame
-    private void Update()
-    {
-        if (OVRInput.GetUp(RequestCaptureBtn))
-        {
-            _sceneManager.RequestSceneCapture();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9558d28fc81fd12e5b99197cdb1df854486b4a2220b1ccadc8c4ecacb2945a74
+size 493

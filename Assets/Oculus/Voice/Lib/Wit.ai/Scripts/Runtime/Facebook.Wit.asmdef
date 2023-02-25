@@ -1,16 +1,3 @@
-{
-    "name": "Facebook.WitAI",
-    "rootNamespace": "",
-    "references": [
-        "GUID:f02292e638368584080af0193f81ff5c"
-    ],
-    "includePlatforms": [],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": [],
-    "noEngineReferences": false
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fca40272de5ec03fee166a64859307366c756927ba06a91e347b5d1fd86453c9
+size 400

@@ -1,21 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform
-{
-
-  using Description = System.ComponentModel.DescriptionAttribute;
-
-  public enum NetSyncVoipStreamMode : int
-  {
-    [Description("UNKNOWN")]
-    Unknown,
-
-    [Description("AMBISONIC")]
-    Ambisonic,
-
-    [Description("MONO")]
-    Mono,
-
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:17e82271985772c5460bf445a6b475fa5ed6d0c90ca56b953ce15ca4995a3562
+size 357

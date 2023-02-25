@@ -1,9 +1,3 @@
-uniform half _DitherStrength;
-
-inline half DitherAnimatedNoise(half2 screenPos) {
-	half noise = frac(
-		dot(uint3(screenPos, floor(fmod(_Time.y * 10, 4))), uint3(2, 7, 23) / 17.0f));
-	noise -= 0.5; // remap from [0..1[ to [-0.5..0.5[
-	half noiseScaled = (noise / _DitherStrength);
-	return noiseScaled;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:053d8b2674dabd90db493e500d6c3ba1611667a97389a003104a198e1896b2dc
+size 311

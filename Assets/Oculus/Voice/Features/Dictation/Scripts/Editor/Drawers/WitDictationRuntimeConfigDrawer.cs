@@ -1,23 +1,3 @@
-/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using UnityEditor;
-using UnityEngine;
-
-namespace Oculus.Voice.Dictation.Inspectors
-{
-    [CustomPropertyDrawer(typeof(WitDictationRuntimeConfigDrawer))]
-    public class WitDictationRuntimeConfigDrawer : PropertyDrawer
-    {
-        public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
-        {
-            base.OnGUI(position, property, label);
-
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:86cd48f4db4f68247dcd79ee4b92f39cd3c5dc5f8080400206e4c8293d6c2af6
+size 613

@@ -1,18 +1,3 @@
-﻿/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using System;
-using System.Collections.Generic;
-
-namespace Meta.Conduit
-{
-    internal interface IInstanceResolver
-    {
-        IEnumerable<object> GetObjectsOfType(Type type);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3128f893b5a3893177ecccfa29051559e62a8d41c4e352c12656694dab82175f
+size 418

@@ -1,27 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform.Models
-{
-  using System;
-  using System.Collections;
-  using Oculus.Platform.Models;
-  using System.Collections.Generic;
-  using UnityEngine;
-
-  /// DEPRECATED. Will be removed from headers at version v49.
-  public class MatchmakingBrowseResult
-  {
-    /// DEPRECATED. Will be removed from headers at version v49.
-    public readonly MatchmakingEnqueueResult EnqueueResult;
-    /// DEPRECATED. Will be removed from headers at version v49.
-    public readonly RoomList Rooms;
-
-
-    public MatchmakingBrowseResult(IntPtr o)
-    {
-      EnqueueResult = new MatchmakingEnqueueResult(CAPI.ovr_MatchmakingBrowseResult_GetEnqueueResult(o));
-      Rooms = new RoomList(CAPI.ovr_MatchmakingBrowseResult_GetRooms(o));
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f69e201dfbc7b7170bcbd24bad1394a4b314b879c53b79ade9d5d9588f66752d
+size 828

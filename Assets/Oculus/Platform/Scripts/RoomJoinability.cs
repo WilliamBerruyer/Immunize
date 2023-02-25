@@ -1,33 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform
-{
-
-  using Description = System.ComponentModel.DescriptionAttribute;
-
-  public enum RoomJoinability : int
-  {
-    [Description("UNKNOWN")]
-    Unknown,
-
-    [Description("ARE_IN")]
-    AreIn,
-
-    [Description("ARE_KICKED")]
-    AreKicked,
-
-    [Description("CAN_JOIN")]
-    CanJoin,
-
-    [Description("IS_FULL")]
-    IsFull,
-
-    [Description("NO_VIEWER")]
-    NoViewer,
-
-    [Description("POLICY_PREVENTS")]
-    PolicyPrevents,
-
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:474ff0080e692a25ee7bb9b2522bf3d44eec4ce9e28b3dc9051178c8f0c39210
+size 545

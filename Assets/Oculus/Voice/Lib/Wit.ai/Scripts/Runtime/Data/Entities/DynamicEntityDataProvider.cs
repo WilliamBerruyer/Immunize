@@ -1,28 +1,3 @@
-﻿/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using Facebook.WitAi.Interfaces;
-using UnityEngine;
-
-namespace Facebook.WitAi.Data.Entities
-{
-    public class DynamicEntityDataProvider : MonoBehaviour, IDynamicEntitiesProvider
-    {
-        [SerializeField] internal WitDynamicEntitiesData[] entitiesDefinition;
-        public WitDynamicEntities GetDynamicEntities()
-        {
-            WitDynamicEntities entities = new WitDynamicEntities();
-            foreach (var entity in entitiesDefinition)
-            {
-                entities.Merge(entity);
-            }
-
-            return entities;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f419c7217279bb4ba73171886b5e4697801786de9fb8ac46dbd0d2021057069f
+size 782

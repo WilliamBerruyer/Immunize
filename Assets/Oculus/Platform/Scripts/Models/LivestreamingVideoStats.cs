@@ -1,26 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform.Models
-{
-  using System;
-  using System.Collections;
-  using Oculus.Platform.Models;
-  using System.Collections.Generic;
-  using UnityEngine;
-
-  public class LivestreamingVideoStats
-  {
-    public readonly int CommentCount;
-    public readonly int ReactionCount;
-    public readonly string TotalViews;
-
-
-    public LivestreamingVideoStats(IntPtr o)
-    {
-      CommentCount = CAPI.ovr_LivestreamingVideoStats_GetCommentCount(o);
-      ReactionCount = CAPI.ovr_LivestreamingVideoStats_GetReactionCount(o);
-      TotalViews = CAPI.ovr_LivestreamingVideoStats_GetTotalViews(o);
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c778bd6f16256bd5979aa9bed1ef136ced6075a25ae29dce570e8d94d2956b90
+size 695

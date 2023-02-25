@@ -1,22 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform.Models
-{
-  using System;
-  using System.Collections;
-  using Oculus.Platform.Models;
-  using System.Collections.Generic;
-  using UnityEngine;
-
-  public class PartyID
-  {
-    public readonly UInt64 ID;
-
-
-    public PartyID(IntPtr o)
-    {
-      ID = CAPI.ovr_PartyID_GetID(o);
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e90875bd457a53cc4f4be07cbc16200029e853acd116f7e7992ff1fc2ba4497
+size 396

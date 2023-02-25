@@ -1,29 +1,3 @@
-/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using UnityEditor;
-
-namespace Facebook.WitAi.Lib
-{
-    [CustomEditor(typeof(Mic))]
-    public class MicEditor : Editor
-    {
-        public override void OnInspectorGUI()
-        {
-            base.OnInspectorGUI();
-
-            var mic = (Mic) target;
-
-            int index = EditorGUILayout.Popup("Input", mic.CurrentDeviceIndex, mic.Devices.ToArray());
-            if (index != mic.CurrentDeviceIndex)
-            {
-                mic.ChangeDevice(index);
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f418815052f7cba8d2a115432c55bc767737d5d760b4ff127e0029378b8025aa
+size 704

@@ -1,24 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform.Models
-{
-  using System;
-  using System.Collections;
-  using Oculus.Platform.Models;
-  using System.Collections.Generic;
-  using UnityEngine;
-
-  public class SupplementaryMetric
-  {
-    public readonly UInt64 ID;
-    public readonly long Metric;
-
-
-    public SupplementaryMetric(IntPtr o)
-    {
-      ID = CAPI.ovr_SupplementaryMetric_GetID(o);
-      Metric = CAPI.ovr_SupplementaryMetric_GetMetric(o);
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3948ad0ce4da112757670a17b0728cf81c7d2acae6933edfd1cb2a2dbc20012
+size 523

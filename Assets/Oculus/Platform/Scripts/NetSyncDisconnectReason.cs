@@ -1,31 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform
-{
-
-  using Description = System.ComponentModel.DescriptionAttribute;
-
-  public enum NetSyncDisconnectReason : int
-  {
-    [Description("UNKNOWN")]
-    Unknown,
-
-    /// when disconnect was requested
-    [Description("LOCAL_TERMINATED")]
-    LocalTerminated,
-
-    /// server intentionally closed the connection
-    [Description("SERVER_TERMINATED")]
-    ServerTerminated,
-
-    /// initial connection never succeeded
-    [Description("FAILED")]
-    Failed,
-
-    /// network timeout
-    [Description("LOST")]
-    Lost,
-
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6cab3a94a207d0655bc96ebd3e30c696ee3448b8e89cfb9800d6b4475919107
+size 631

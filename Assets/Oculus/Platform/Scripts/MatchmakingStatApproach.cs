@@ -1,21 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform
-{
-
-  using Description = System.ComponentModel.DescriptionAttribute;
-
-  public enum MatchmakingStatApproach : int
-  {
-    [Description("UNKNOWN")]
-    Unknown,
-
-    [Description("TRAILING")]
-    Trailing,
-
-    [Description("SWINGY")]
-    Swingy,
-
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:23cf3ae6d0a92014c73bac50dd65a6b46f84a63a6ccd273ff89ae243ab49f58e
+size 361

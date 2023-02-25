@@ -1,23 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Keychain: MonoBehaviour
-{
-    List<string> m_KeyTypeOwned = new List<string>();
-
-    public void GrabbedKey(string keyType)
-    {
-        m_KeyTypeOwned.Add(keyType);
-    }
-
-    public bool HaveKey(string keyType)
-    {
-        return m_KeyTypeOwned.Contains(keyType);
-    }
-
-    public void UseKey(string keyType)
-    {
-        m_KeyTypeOwned.Remove(keyType);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f2f66dfefee8c694f2346d9e7310b4fbe7b84622ebcea98f2882b91a366ff64
+size 488

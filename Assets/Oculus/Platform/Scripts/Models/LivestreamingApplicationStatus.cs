@@ -1,22 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform.Models
-{
-  using System;
-  using System.Collections;
-  using Oculus.Platform.Models;
-  using System.Collections.Generic;
-  using UnityEngine;
-
-  public class LivestreamingApplicationStatus
-  {
-    public readonly bool StreamingEnabled;
-
-
-    public LivestreamingApplicationStatus(IntPtr o)
-    {
-      StreamingEnabled = CAPI.ovr_LivestreamingApplicationStatus_GetStreamingEnabled(o);
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ffb07be16f4cf90c76680c2d1e25bdbfddd7f5c2e24f2e955d51f28dc20fa1d
+size 505

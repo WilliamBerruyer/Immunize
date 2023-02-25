@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 4c243c46c5f7948488696c53b4fa9786
-timeCreated: 1542071393
-licenseType: Free
-MonoImporter:
-  serializedVersion: 2
-  defaultReferences:
-  - m_prefabA: {instanceID: 0}
-  - m_prefabB: {instanceID: 0}
-  - m_prefabPower: {instanceID: 0}
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:e489e1f187fc83c79b4bbc82faebf69b71d8b7135c1b80323fe5f03b17c4e916
+size 357

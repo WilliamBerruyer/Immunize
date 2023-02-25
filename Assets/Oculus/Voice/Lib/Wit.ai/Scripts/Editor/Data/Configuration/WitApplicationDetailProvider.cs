@@ -1,14 +1,3 @@
-/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-namespace Facebook.WitAi.Data.Configuration
-{
-    public class WitApplicationDetailProvider : IApplicationDetailProvider
-    {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a8fabbe1f731ad4ba7aeeda0f17b5298de5f749556a8087e19365e2ef98e7c0c
+size 346

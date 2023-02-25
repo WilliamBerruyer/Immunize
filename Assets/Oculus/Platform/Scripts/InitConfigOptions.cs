@@ -1,14 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform
-{
-
-  public enum InitConfigOptions : uint
-  {
-    /// Disables the initialization of the WebRTC networking stack, when you don't
-    /// need to use any of the ovr_Voip_* or ovr_Net_* functions.
-    DisableP2pNetworking = 0x1CDE5DDE,
-
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2dc81db9fe6fb4ba26b0609319e55ffffd3de309a955ed17c11531bb1d30bd1f
+size 349

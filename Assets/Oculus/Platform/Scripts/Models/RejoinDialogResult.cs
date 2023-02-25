@@ -1,23 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform.Models
-{
-  using System;
-  using System.Collections;
-  using Oculus.Platform.Models;
-  using System.Collections.Generic;
-  using UnityEngine;
-
-  public class RejoinDialogResult
-  {
-    /// A boolean for if the user decided to rejoin.
-    public readonly bool RejoinSelected;
-
-
-    public RejoinDialogResult(IntPtr o)
-    {
-      RejoinSelected = CAPI.ovr_RejoinDialogResult_GetRejoinSelected(o);
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b155c0d56fc5f2f3b9ed66a8eb83fa60f572b2c9c46d4fa4feb57505d4be86b
+size 516

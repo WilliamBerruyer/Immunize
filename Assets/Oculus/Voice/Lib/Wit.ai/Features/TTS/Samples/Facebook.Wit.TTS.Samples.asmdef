@@ -1,16 +1,3 @@
-{
-    "name": "Facebook.Wit.TTS.Samples",
-    "rootNamespace": "",
-    "references": [
-        "GUID:8bbcefc153e1f1b4a98680670797dd16"
-    ],
-    "includePlatforms": [],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": [],
-    "noEngineReferences": false
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d0e45de67710055fce7c7f23972ba276bced8a9bd47dce3ebc9ba6a81e1f9d0c
+size 410

@@ -1,20 +1,3 @@
-﻿/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using System;
-using Facebook.WitAi.Dictation.Data;
-using UnityEngine.Events;
-
-namespace Facebook.WitAi.Dictation.Events
-{
-    [Serializable]
-    public class DictationSessionEvent : UnityEvent<DictationSession>
-    {
-        
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:302b15f6d5dc42f9631bec90e0e45aa17c8aa1aa0ff222de57c3b69f23f082e5
+size 468

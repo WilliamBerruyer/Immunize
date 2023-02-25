@@ -1,25 +1,3 @@
-﻿/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using UnityEngine;
-
-namespace Facebook.WitAi.Data
-{
-    public class AudioBufferConfiguration
-    {
-        [Tooltip("The length of the individual samples read from the audio source")]
-        [Range(10, 500)]
-        [SerializeField]
-        public int sampleLengthInMs = 10;
-
-        [Tooltip(
-            "The total audio data that should be buffered for lookback purposes on sound based activations.")]
-        [SerializeField]
-        public float micBufferLengthInSeconds = 1;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b227f22cf5a970fa0b954c650dcb7d78c2fed4b618274a1151c572d58d56a8f
+size 705

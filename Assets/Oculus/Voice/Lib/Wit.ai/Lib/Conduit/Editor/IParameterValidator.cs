@@ -1,25 +1,3 @@
-﻿/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using System;
-
-namespace Meta.Conduit.Editor
-{
-    /// <summary>
-    /// Validates whether a parameter type is supported or not.
-    /// </summary>
-    internal interface IParameterValidator
-    {
-        /// <summary>
-        /// Tests if a parameter type can be supplied directly to a callback method from.
-        /// </summary>
-        /// <param name="type">The data type.</param>
-        /// <returns>True if the parameter type is supported. False otherwise.</returns>
-        bool IsSupportedParameterType(Type type);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b7e561be7d1963118b4ee67b4a50abaabb2fcf9df2163935260478010d085917
+size 772

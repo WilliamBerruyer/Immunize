@@ -1,25 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform.Models
-{
-  using System;
-  using System.Collections;
-  using Oculus.Platform.Models;
-  using System.Collections.Generic;
-  using UnityEngine;
-
-  /// DEPRECATED. Will be removed from headers at version v49.
-  public class CloudStorageConflictMetadata
-  {
-    public readonly CloudStorageMetadata Local;
-    public readonly CloudStorageMetadata Remote;
-
-
-    public CloudStorageConflictMetadata(IntPtr o)
-    {
-      Local = new CloudStorageMetadata(CAPI.ovr_CloudStorageConflictMetadata_GetLocal(o));
-      Remote = new CloudStorageMetadata(CAPI.ovr_CloudStorageConflictMetadata_GetRemote(o));
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c4974b4e7febfdeddc40041ea72143f552010f81899eba49341951d7619637ff
+size 713

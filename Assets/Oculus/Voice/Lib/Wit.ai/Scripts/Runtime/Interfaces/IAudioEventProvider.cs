@@ -1,15 +1,3 @@
-/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-namespace Facebook.WitAi.Interfaces
-{
-    public interface IAudioEventProvider
-    {
-        IAudioInputEvents AudioEvents { get; }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e28c75ed539f4a04a39ebae5c0c16ed2f85b67eb0165e42e9c87ac770c73769
+size 351

@@ -1,30 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform
-{
-
-  using Description = System.ComponentModel.DescriptionAttribute;
-
-  public enum TimeWindow : int
-  {
-    [Description("UNKNOWN")]
-    Unknown,
-
-    [Description("ONE_HOUR")]
-    OneHour,
-
-    [Description("ONE_DAY")]
-    OneDay,
-
-    [Description("ONE_WEEK")]
-    OneWeek,
-
-    [Description("THIRTY_DAYS")]
-    ThirtyDays,
-
-    [Description("NINETY_DAYS")]
-    NinetyDays,
-
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:efa13d413e6fab703fc372ce9e5c0481f03e7065479acbc4a824b5bfeb8d7797
+size 492

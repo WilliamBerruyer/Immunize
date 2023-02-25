@@ -1,23 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform.Models
-{
-  using System;
-  using System.Collections;
-  using Oculus.Platform.Models;
-  using System.Collections.Generic;
-  using UnityEngine;
-
-  /// DEPRECATED. Will be removed from headers at version v49.
-  public class CalApplicationProposed
-  {
-    public readonly UInt64 ID;
-
-
-    public CalApplicationProposed(IntPtr o)
-    {
-      ID = CAPI.ovr_CalApplicationProposed_GetID(o);
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:13ccf55137f4761439a9372c3177910bd3317f0a45d14225586bc99dbda18bb6
+size 504

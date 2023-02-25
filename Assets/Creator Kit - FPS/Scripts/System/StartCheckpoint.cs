@@ -1,13 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class StartCheckpoint : MonoBehaviour
-{
-    void OnTriggerEnter(Collider other)
-    {
-        GameSystem.Instance.ResetTimer();
-        GameSystem.Instance.StartTimer();
-        Destroy(gameObject);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:55354150e8b77643a57ccbbdfeba66d43e7a36485096380c86f56bebbb1629b0
+size 310

@@ -1,22 +1,3 @@
-using UnityEditor;
-
-public class FirebaseEnabler
-{
-    private static readonly string FirebaseBuildDefinition = "OVR_SAMPLES_ENABLE_FIREBASE";
-
-    [MenuItem("Oculus/Samples/Firebase/Enable Firebase Sample")]
-    public static void EnableFirebaseSample()
-    {
-        var defineString = PlayerSettings.GetScriptingDefineSymbolsForGroup(BuildTargetGroup.Android);
-        PlayerSettings.SetScriptingDefineSymbolsForGroup(BuildTargetGroup.Android, $"{defineString};{FirebaseBuildDefinition}");
-    }
-
-    [MenuItem("Oculus/Samples/Firebase/Disable Firebase Sample")]
-    public static void DisableFirebaseSample()
-    {
-        var defineString = PlayerSettings.GetScriptingDefineSymbolsForGroup(BuildTargetGroup.Android);
-        var defines = defineString.Split(new char[] { ';' }, System.StringSplitOptions.RemoveEmptyEntries);
-        var filtered = System.Array.FindAll(defines, d => d != FirebaseBuildDefinition);
-        PlayerSettings.SetScriptingDefineSymbolsForGroup(BuildTargetGroup.Android, string.Join(";", filtered));
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a9d06ba603fc6a84e7922740c0c7dc7f69da3a52e2b1cdd5803ba03aec0957e
+size 1039

@@ -1,26 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform.Models
-{
-  using System;
-  using System.Collections;
-  using Oculus.Platform.Models;
-  using System.Collections.Generic;
-  using UnityEngine;
-
-  public class AssetFileDownloadResult
-  {
-    /// ID of the asset file
-    public readonly UInt64 AssetId;
-    /// File path of the asset file.
-    public readonly string Filepath;
-
-
-    public AssetFileDownloadResult(IntPtr o)
-    {
-      AssetId = CAPI.ovr_AssetFileDownloadResult_GetAssetId(o);
-      Filepath = CAPI.ovr_AssetFileDownloadResult_GetFilepath(o);
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dfd7856e62a6aac40b357304614a5b5cb3590767ec8bc1a3d536b346f4a3c577
+size 628

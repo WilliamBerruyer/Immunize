@@ -1,28 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-[RequireComponent(typeof(Collider))]
-public class AmmoBox : MonoBehaviour
-{
-    [AmmoType]
-    public int ammoType;
-    public int amount;
-    
-    void Reset()
-    {
-        gameObject.layer = LayerMask.NameToLayer("PlayerCollisionOnly");
-        GetComponent<Collider>().isTrigger = true;
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        Controller c = other.GetComponent<Controller>();
-
-        if (c != null)
-        {
-            c.ChangeAmmo(ammoType, amount);
-            Destroy(gameObject);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d6b5d690509ad4f2ee03e223906babb30b3401bcd34bd934828bcfa9f039a907
+size 641

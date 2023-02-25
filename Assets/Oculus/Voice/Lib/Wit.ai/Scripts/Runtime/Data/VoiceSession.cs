@@ -1,30 +1,3 @@
-/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using System;
-using Facebook.WitAi.Lib;
-
-namespace Facebook.WitAi.Data
-{
-    [Serializable]
-    public class VoiceSession
-    {
-        /// <summary>
-        /// Voice service being used
-        /// </summary>
-        public VoiceService service;
-        /// <summary>
-        /// Voice service response data
-        /// </summary>
-        public WitResponseNode response;
-        /// <summary>
-        /// Session response data is valid & can be deactivated if true
-        /// </summary>
-        public bool validResponse = false;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:096dac9602b7a6d006239f3dacec240509552e5a0667e1136e389aa5e26f5db3
+size 782

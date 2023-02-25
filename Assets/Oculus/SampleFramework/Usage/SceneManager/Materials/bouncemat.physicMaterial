@@ -1,14 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!134 &13400000
-PhysicMaterial:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: bouncemat
-  dynamicFriction: 0
-  staticFriction: 0
-  bounciness: 0.96999
-  frictionCombine: 3
-  bounceCombine: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:18192bdd8714c649a0ff8703ced8f0db2706fd932fa257e8354a69b6ea6bcced
+size 328

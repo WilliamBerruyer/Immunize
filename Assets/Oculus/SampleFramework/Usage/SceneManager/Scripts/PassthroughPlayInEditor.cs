@@ -1,18 +1,3 @@
-using UnityEngine;
-
-[RequireComponent(typeof(OVRManager))]
-public class PassthroughPlayInEditor : MonoBehaviour
-{
-  void Awake()
-  {
-#if UNITY_EDITOR
-    // Disable passthrough in editor to avoid errors being printed
-    GetComponent<OVRManager>().isInsightPassthroughEnabled = false;
-    OVRPassthroughLayer passthroughLayer = GetComponent<OVRPassthroughLayer>();
-    if(passthroughLayer)
-    {
-      passthroughLayer.enabled = false;
-    }
-#endif
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:888d63c66ae32bd3dd9140b90ffc283e28f4bc23161bdd5693618ba8a8eede7a
+size 455

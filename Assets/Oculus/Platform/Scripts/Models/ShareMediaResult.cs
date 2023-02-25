@@ -1,22 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform.Models
-{
-  using System;
-  using System.Collections;
-  using Oculus.Platform.Models;
-  using System.Collections.Generic;
-  using UnityEngine;
-
-  public class ShareMediaResult
-  {
-    public readonly ShareMediaStatus Status;
-
-
-    public ShareMediaResult(IntPtr o)
-    {
-      Status = CAPI.ovr_ShareMediaResult_GetStatus(o);
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:debbf97f6f1149ebd8653fdbb4d0df69c562299094a520c9ee24ebb1397efe57
+size 445

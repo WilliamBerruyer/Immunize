@@ -1,25 +1,3 @@
-﻿/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using Facebook.WitAi.Events;
-
-namespace Facebook.WitAi.Interfaces
-{
-    public interface ITranscriptionEvent
-    {
-        /// <summary>
-        /// Message fired when a partial transcription has been received.
-        /// </summary>
-        WitTranscriptionEvent OnPartialTranscription { get; }
-
-        /// <summary>
-        /// Message received when a complete transcription is received.
-        /// </summary>
-        WitTranscriptionEvent OnFullTranscription { get; }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:050df632e0e3400abedf1a8381dfc79fc07b907396884d1cf0dd680f8e187ea0
+size 695

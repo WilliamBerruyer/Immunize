@@ -1,14 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-
-public class TextAmmoDisplay : AmmoDisplay
-{
-    public Text DisplayText;
-    
-    public override void UpdateAmount(int current, int max)
-    {
-        DisplayText.text = current.ToString();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b299cf9bbe1d412ba6e0403574a1e358924227f21de8cb11a1cb2552f0492a77
+size 319

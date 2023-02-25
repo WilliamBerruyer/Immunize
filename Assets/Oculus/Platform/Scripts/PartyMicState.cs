@@ -1,30 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform
-{
-
-  using Description = System.ComponentModel.DescriptionAttribute;
-
-  public enum PartyMicState : int
-  {
-    [Description("UNKNOWN")]
-    Unknown,
-
-    [Description("PARTY")]
-    Party,
-
-    [Description("APP")]
-    App,
-
-    [Description("MUTE")]
-    Mute,
-
-    [Description("INACTIVE")]
-    Inactive,
-
-    [Description("INPUT_SHARED")]
-    InputShared,
-
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:98c343f627bac8575f8b918998f1edc83b387ea84f72733d42f02ce95c30c7e7
+size 473

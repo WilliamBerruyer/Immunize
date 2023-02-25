@@ -1,26 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-
-public class Key : MonoBehaviour
-{
-    public string keyType;
-    public Text KeyNameText;
-
-    void OnEnable()
-    {
-        KeyNameText.text = keyType;
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        var keychain = other.GetComponent<Keychain>();
-
-        if (keychain != null)
-        {
-            keychain.GrabbedKey(keyType);
-            Destroy(gameObject);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ee0d46850965d412593b22781a9e1d1ace7516647451b64fde1fb08abbf2f49
+size 527

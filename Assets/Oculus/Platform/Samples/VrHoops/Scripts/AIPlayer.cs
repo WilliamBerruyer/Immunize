@@ -1,25 +1,3 @@
-namespace Oculus.Platform.Samples.VrHoops
-{
-	using UnityEngine;
-	using System.Collections;
-
-	// An AI Player just shoots a ball forward with some random delay.
-	public class AIPlayer : Player {
-
-		void FixedUpdate ()
-		{
-			if (HasBall)
-			{
-				// add a little randomness to the shoot rate so the AI's don't look synchronized
-				if (Random.Range(0f, 1f) < 0.03f)
-				{
-					ShootBall();
-				}
-			}
-			else
-			{
-				CheckSpawnBall();
-			}
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ee248772163e31cead7a5e66a5340228a035b9199c299a4d2b2b68f15753155
+size 449

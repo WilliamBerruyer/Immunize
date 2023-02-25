@@ -1,23 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform.Models
-{
-  using System;
-  using System.Collections;
-  using Oculus.Platform.Models;
-  using System.Collections.Generic;
-  using UnityEngine;
-
-  public class UserDataStoreUpdateResponse
-  {
-    /// Whether the update request is succeeded.
-    public readonly bool Success;
-
-
-    public UserDataStoreUpdateResponse(IntPtr o)
-    {
-      Success = CAPI.ovr_UserDataStoreUpdateResponse_GetSuccess(o);
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ad4122a76002d7ab892eed25109aceec36af05fabe36c7706e3e9d5fe74084d
+size 518

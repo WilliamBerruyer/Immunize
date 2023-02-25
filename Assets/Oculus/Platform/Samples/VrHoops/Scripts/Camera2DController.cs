@@ -1,23 +1,3 @@
-namespace Oculus.Platform.Samples.VrHoops
-{
-	using UnityEngine;
-
-	// Helper class to attach to the MainCamera so it can be moved with the mouse while debugging
-	// in 2D mode on a PC.
-	public class Camera2DController : MonoBehaviour
-	{
-		void Update ()
-		{
-			if (Input.GetButton("Fire2"))
-			{
-				var v = Input.GetAxis("Mouse Y");
-				var h = Input.GetAxis("Mouse X");
-				transform.rotation *= Quaternion.AngleAxis(h, Vector3.up);
-				transform.rotation *= Quaternion.AngleAxis(-v, Vector3.right);
-				Vector3 eulers = transform.eulerAngles;
-				eulers.z = 0;
-				transform.eulerAngles = eulers;
-			}
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d28db93a025abf515d3ccc480457d6816d7bc05e2feeed551e5d10282f83829
+size 613

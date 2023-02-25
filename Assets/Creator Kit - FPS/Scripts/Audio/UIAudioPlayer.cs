@@ -1,29 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class UIAudioPlayer : MonoBehaviour
-{
-    public static UIAudioPlayer Instance { get; private set; }
-
-    public AudioClip PositiveSound;
-    public AudioClip NegativeSound;
-    
-    AudioSource m_Source;
-
-    void Awake()
-    {
-        m_Source = GetComponent<AudioSource>();
-        Instance = this;
-    }
-
-    public static void PlayPositive()
-    {
-        Instance.m_Source.PlayOneShot(Instance.PositiveSound);
-    }
-
-    public static void PlayNegative()
-    {
-        Instance.m_Source.PlayOneShot(Instance.NegativeSound);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3a1c4f8b1a29544e0b9218199a81356862db3eaf40dd2cdf5314540e181b7f4
+size 657

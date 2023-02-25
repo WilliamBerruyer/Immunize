@@ -1,28 +1,3 @@
-namespace Oculus.Platform.Models
-{
-  using System;
-  using System.Collections;
-  using System.Collections.Generic;
-  using System.Runtime.InteropServices;
-  using Oculus.Platform.Models;
-  using UnityEngine;
-
-  public class HttpTransferUpdate
-  {
-    public readonly UInt64 ID;
-    public readonly byte[] Payload;
-    public readonly bool IsCompleted;
-
-    public HttpTransferUpdate(IntPtr o)
-    {
-      ID = CAPI.ovr_HttpTransferUpdate_GetID(o);
-      IsCompleted = CAPI.ovr_HttpTransferUpdate_IsCompleted(o);
-
-      long size = (long) CAPI.ovr_HttpTransferUpdate_GetSize(o);
-
-      Payload = new byte[size];
-      Marshal.Copy(CAPI.ovr_Packet_GetBytes(o), Payload, 0, (int) size);
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:34f59455d4a25d2a91478bd2f5334037b99fa8147709aab7f0308aff867e7e9b
+size 697

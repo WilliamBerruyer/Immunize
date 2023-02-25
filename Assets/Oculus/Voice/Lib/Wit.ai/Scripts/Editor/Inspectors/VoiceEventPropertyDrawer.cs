@@ -1,17 +1,3 @@
-/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using UnityEditor;
-
-namespace Facebook.WitAi.Events.Editor
-{
-    [CustomPropertyDrawer(typeof(VoiceEvents))]
-    public class VoiceEventPropertyDrawer : EventPropertyDrawer<VoiceEvents>
-    {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a45caac74eb6895bcf9be135f7dc23b10ee969c0ea6c89ddb3bec6b8339a8f0c
+size 428

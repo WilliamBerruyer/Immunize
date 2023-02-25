@@ -1,27 +1,3 @@
-using UnityEngine;
-using System.Collections;
-using System;
-
-namespace Oculus.Platform
-{
-  public class VoipPCMSourceNative : IVoipPCMSource
-  {
-    ulong senderID;
-
-    public int GetPCM(float[] dest, int length)
-    {
-      return (int)CAPI.ovr_Voip_GetPCMFloat(senderID, dest, (UIntPtr)length);
-    }
-
-    public void SetSenderID(ulong senderID)
-    {
-      this.senderID = senderID;
-    }
-
-    public int PeekSizeElements() {
-      return (int)CAPI.ovr_Voip_GetPCMSize(senderID);
-    }
-
-    public void Update() { }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:da838b0c600b4861d39d6fcca5b528246f608d0f981d4e0fcc0d4e43cb03bfe2
+size 525

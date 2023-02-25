@@ -1,11 +1,3 @@
-﻿/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using System.Runtime.CompilerServices;
-
-[assembly:InternalsVisibleTo("Facebook.Wit.Tests")]
+version https://git-lfs.github.com/spec/v1
+oid sha256:6328f1371f781910163bf234321bef38c79c425bf5ad0218f99c9ad81f4188b2
+size 316

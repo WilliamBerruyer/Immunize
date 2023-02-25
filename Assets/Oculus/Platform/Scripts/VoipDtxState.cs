@@ -1,21 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform
-{
-
-  using Description = System.ComponentModel.DescriptionAttribute;
-
-  public enum VoipDtxState : int
-  {
-    [Description("UNKNOWN")]
-    Unknown,
-
-    [Description("ENABLED")]
-    Enabled,
-
-    [Description("DISABLED")]
-    Disabled,
-
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2a390aa77e1f2c30a27765e824633202f0ba4c69909754bedb84949ed1185fc
+size 352

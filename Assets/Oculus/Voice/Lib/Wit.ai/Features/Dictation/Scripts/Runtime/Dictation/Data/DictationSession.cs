@@ -1,30 +1,3 @@
-﻿/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using System;
-using Facebook.WitAi.Data;
-
-namespace Facebook.WitAi.Dictation.Data
-{
-    [Serializable]
-    public class DictationSession : VoiceSession
-    {
-        /// <summary>
-        /// Dictation service being used
-        /// </summary>
-        public IDictationService dictationService;
-        /// <summary>
-        /// Collection of Request IDs generated from client for Wit requests
-        /// </summary>
-        public string[] clientRequestId;
-        /// <summary>
-        /// An identifier for the current dictation session
-        /// </summary>
-        public string sessionId;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a30cbf9a8d497aa8c2cddb26e183983fedecf2e84cd5952ba958cada384e838
+size 848

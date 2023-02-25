@@ -1,22 +1,3 @@
-fileFormatVersion: 2
-guid: deaf12b8a1ff20141b1cac732da396cb
-TrueTypeFontImporter:
-  externalObjects: {}
-  serializedVersion: 4
-  fontSize: 16
-  forceTextureCase: -2
-  characterSpacing: 0
-  characterPadding: 1
-  includeFontData: 1
-  fontName: Sarpanch Medium
-  fontNames:
-  - Sarpanch Medium
-  fallbackFontReferences: []
-  customCharacters: 
-  fontRenderingMode: 0
-  ascentCalculationMode: 1
-  useLegacyBoundsCalculation: 0
-  shouldRoundAdvanceValue: 1
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:0793621424add2d204f30729c6b7f26364228a8eab84bea7fe6c4a8185b62a90
+size 530

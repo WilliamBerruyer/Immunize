@@ -1,22 +1,3 @@
-fileFormatVersion: 2
-guid: 7e2f374630d84214eb68e28eb5ba4963
-TrueTypeFontImporter:
-  externalObjects: {}
-  serializedVersion: 4
-  fontSize: 16
-  forceTextureCase: -2
-  characterSpacing: 0
-  characterPadding: 1
-  includeFontData: 1
-  fontName: Sarpanch ExtraBold
-  fontNames:
-  - Sarpanch ExtraBold
-  fallbackFontReferences: []
-  customCharacters: 
-  fontRenderingMode: 0
-  ascentCalculationMode: 1
-  useLegacyBoundsCalculation: 0
-  shouldRoundAdvanceValue: 1
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ec5bfbd86d3505666e611607a93dee0a5ddec2bf4dcbb9d8f0529480e5d7cfa
+size 536

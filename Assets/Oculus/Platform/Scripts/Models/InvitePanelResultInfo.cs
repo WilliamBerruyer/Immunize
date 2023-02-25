@@ -1,23 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform.Models
-{
-  using System;
-  using System.Collections;
-  using Oculus.Platform.Models;
-  using System.Collections.Generic;
-  using UnityEngine;
-
-  public class InvitePanelResultInfo
-  {
-    /// A boolean for whether or not any invites has been sent.
-    public readonly bool InvitesSent;
-
-
-    public InvitePanelResultInfo(IntPtr o)
-    {
-      InvitesSent = CAPI.ovr_InvitePanelResultInfo_GetInvitesSent(o);
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b60d7cd37038b6387d6ce49e4709d3a159bfd000f4a2c8675ec767b08e3ca8fb
+size 527

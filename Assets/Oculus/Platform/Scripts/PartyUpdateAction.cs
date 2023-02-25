@@ -1,27 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform
-{
-
-  using Description = System.ComponentModel.DescriptionAttribute;
-
-  public enum PartyUpdateAction : int
-  {
-    [Description("UNKNOWN")]
-    Unknown,
-
-    [Description("Join")]
-    Join,
-
-    [Description("Leave")]
-    Leave,
-
-    [Description("Invite")]
-    Invite,
-
-    [Description("Uninvite")]
-    Uninvite,
-
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a7ca013765ee951756b7d5ed3410dc03675b2d613b5acfcb54a14e4abc49d08
+size 431

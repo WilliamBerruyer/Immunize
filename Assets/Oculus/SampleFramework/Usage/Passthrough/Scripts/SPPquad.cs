@@ -1,33 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class SPPquad : MonoBehaviour
-{
-    OVRPassthroughLayer passthroughLayer;
-    public MeshFilter projectionObject;
-    OVRInput.Controller controllerHand;
-
-    void Start()
-    {
-        passthroughLayer = GetComponent<OVRPassthroughLayer>();
-        passthroughLayer.AddSurfaceGeometry(projectionObject.gameObject, false);
-        if (GetComponent<GrabObject>())
-        {
-            GetComponent<GrabObject>().GrabbedObjectDelegate += Grab;
-            GetComponent<GrabObject>().ReleasedObjectDelegate += Release;
-        }
-    }
-
-    public void Grab(OVRInput.Controller grabHand)
-    {
-        passthroughLayer.RemoveSurfaceGeometry(projectionObject.gameObject);
-        controllerHand = grabHand;
-    }
-
-    public void Release()
-    {
-        controllerHand = OVRInput.Controller.None;
-        passthroughLayer.AddSurfaceGeometry(projectionObject.gameObject, false);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c39ed7e63ecdf4095dd5d6951eddc2dfa27e7eff279ca2334ca3dc1c29a20f45
+size 969

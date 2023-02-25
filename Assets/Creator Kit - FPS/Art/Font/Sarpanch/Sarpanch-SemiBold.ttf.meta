@@ -1,22 +1,3 @@
-fileFormatVersion: 2
-guid: cb31e5af7472b204c9b6039fd4e34d00
-TrueTypeFontImporter:
-  externalObjects: {}
-  serializedVersion: 4
-  fontSize: 16
-  forceTextureCase: -2
-  characterSpacing: 0
-  characterPadding: 1
-  includeFontData: 1
-  fontName: Sarpanch SemiBold
-  fontNames:
-  - Sarpanch SemiBold
-  fallbackFontReferences: []
-  customCharacters: 
-  fontRenderingMode: 0
-  ascentCalculationMode: 1
-  useLegacyBoundsCalculation: 0
-  shouldRoundAdvanceValue: 1
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:f01b76c33765a2d4c21d17f20590fda771e574529471a1598ca5a5cc4a8bdccf
+size 534

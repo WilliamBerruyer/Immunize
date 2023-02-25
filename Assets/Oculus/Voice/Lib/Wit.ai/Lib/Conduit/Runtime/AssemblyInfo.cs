@@ -1,15 +1,3 @@
-﻿/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using System.Runtime.CompilerServices;
-
-[assembly:InternalsVisibleTo("Facebook.WitAI")]
-[assembly:InternalsVisibleTo("Facebook.Wit.Conduit.Editor")]
-[assembly:InternalsVisibleTo("Facebook.Wit.Tests.Editor")]
-[assembly:InternalsVisibleTo("Facebook.Wit.Tests")]
-[assembly:InternalsVisibleTo("DynamicProxyGenAssembly2")]
+version https://git-lfs.github.com/spec/v1
+oid sha256:5859ab70787298c0f46d05cac8a8b7e7f2e6fe7e46ca5baa9d3e4b071bd44f6b
+size 547

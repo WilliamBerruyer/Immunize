@@ -1,24 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform
-{
-
-  using Description = System.ComponentModel.DescriptionAttribute;
-
-  public enum SystemVoipStatus : int
-  {
-    [Description("UNKNOWN")]
-    Unknown,
-
-    [Description("UNAVAILABLE")]
-    Unavailable,
-
-    [Description("SUPPRESSED")]
-    Suppressed,
-
-    [Description("ACTIVE")]
-    Active,
-
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4efdb51cf16b2bdcf3d54c7a16513feb2d36574f66b37830773a6af58e0c382a
+size 409

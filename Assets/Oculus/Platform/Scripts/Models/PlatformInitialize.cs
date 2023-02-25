@@ -1,22 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform.Models
-{
-  using System;
-  using System.Collections;
-  using Oculus.Platform.Models;
-  using System.Collections.Generic;
-  using UnityEngine;
-
-  public class PlatformInitialize
-  {
-    public readonly PlatformInitializeResult Result;
-
-
-    public PlatformInitialize(IntPtr o)
-    {
-      Result = CAPI.ovr_PlatformInitialize_GetResult(o);
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca13ef69dedae20f4cc37c00d7aabf1baf95d26ee77554b8a6f5fc8a41b979fb
+size 459

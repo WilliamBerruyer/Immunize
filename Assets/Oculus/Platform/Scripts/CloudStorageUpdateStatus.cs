@@ -1,24 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform
-{
-
-  using Description = System.ComponentModel.DescriptionAttribute;
-
-  public enum CloudStorageUpdateStatus : int
-  {
-    [Description("UNKNOWN")]
-    Unknown,
-
-    [Description("OK")]
-    Ok,
-
-    [Description("BETTER_VERSION_STORED")]
-    BetterVersionStored,
-
-    [Description("MANUAL_MERGE_REQUIRED")]
-    ManualMergeRequired,
-
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a494863f558193c4a555ca0e00a43fb9f38a6f30435a978a35351412ee409ab
+size 447

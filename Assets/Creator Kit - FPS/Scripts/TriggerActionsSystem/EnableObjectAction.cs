@@ -1,15 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class EnableObjectAction : GameAction
-{
-    public GameObject ObjectToEnable;
-    public bool SetEnableState = true;
-    
-    public override void Activated()
-    {
-        ObjectToEnable.SetActive(SetEnableState);
-        Destroy(this);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8745b92d8678e6e2db460166ad820421c1cf3119a61e6f98ccb570bf0505b225
+size 351

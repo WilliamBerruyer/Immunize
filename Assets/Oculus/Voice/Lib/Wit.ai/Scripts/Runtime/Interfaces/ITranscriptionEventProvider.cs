@@ -1,15 +1,3 @@
-/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-namespace Facebook.WitAi.Interfaces
-{
-    public interface ITranscriptionEventProvider
-    {
-        ITranscriptionEvent TranscriptionEvents { get; }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:14cac416cf240901e3a470d79f911ee54b40eef34fdb2cfd5d71b47c91ad6cc9
+size 369

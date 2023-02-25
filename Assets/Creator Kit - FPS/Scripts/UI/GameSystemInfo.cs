@@ -1,27 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-
-public class GameSystemInfo : MonoBehaviour
-{
-    public static GameSystemInfo Instance { get; private set; }
-    
-    public Text TimerText;
-    public Text ScoreText;
-    
-    void Awake()
-    {
-        Instance = this;
-    }
-
-    public void UpdateTimer(float time)
-    {
-        TimerText.text = time.ToString("N1");
-    }
-
-    public void UpdateScore(int score)
-    {
-        ScoreText.text = score.ToString();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:43a118cc4522d115030a4b32fd9b2a5f42a8b4310af6c849cfe249340175b2a7
+size 556

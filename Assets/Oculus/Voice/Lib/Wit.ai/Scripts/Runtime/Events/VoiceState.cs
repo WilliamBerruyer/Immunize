@@ -1,24 +1,3 @@
-/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-
-using System;
-namespace Facebook.WitAi.Events
-{
-    [Flags]
-    public enum VoiceState
-    {
-        MicOff = 1,   //000001
-        MicOn = 2,    //000010
-        Listening = 4,//000100
-        StartProcessing = 8,//001000
-        Response = 16,//010000
-        Error = 32, //100000
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:75fdd8738316a0bfe75dc8d4daf19b334a762361444e29de6f2db096f52668cf
+size 527

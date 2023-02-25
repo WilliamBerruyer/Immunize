@@ -1,33 +1,3 @@
-/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * Licensed under the Oculus SDK License Agreement (the "License");
- * you may not use the Oculus SDK except in compliance with the License,
- * which is provided at the time of installation or download, or which
- * otherwise accompanies this software in either electronic or hard copy form.
- *
- * You may obtain a copy of the License at
- *
- * https://developer.oculus.com/licenses/oculussdk/
- *
- * Unless required by applicable law or agreed to in writing, the Oculus SDK
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-using System.Collections.Generic;
-using UnityEngine;
-using System;
-
-namespace Oculus.Interaction
-{
-    public interface IGrabbable
-    {
-        List<Pose> GrabPoints { get; }
-
-        Transform Transform { get; }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e7fd09b6f5edb7486dc8a38819c6574a1cfabac7531c5f9cc67524a8613f92a6
+size 1033

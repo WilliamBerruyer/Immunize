@@ -1,26 +1,3 @@
-using UnityEngine;
-
-namespace OVR
-{
-
-/*
------------------------
-
- MinMaxAttribute
-
------------------------
-*/
-public class MinMaxAttribute : PropertyAttribute {
-	public float minDefaultVal = 1.0f;
-	public float maxDefaultVal = 1.0f;
-	public float min = 0.0f;
-	public float max = 1.0f;
-	public MinMaxAttribute( float minDefaultVal, float maxDefaultVal, float min, float max ) {
-		this.minDefaultVal = minDefaultVal;
-		this.maxDefaultVal = maxDefaultVal;
-		this.min = min;
-		this.max = max;
-	}
-}
-
-} // namespace OVR
+version https://git-lfs.github.com/spec/v1
+oid sha256:58c1f64dec5115ea9fd47f08cd743a272468c8c10a67098d5ccfb61cf2d18201
+size 514

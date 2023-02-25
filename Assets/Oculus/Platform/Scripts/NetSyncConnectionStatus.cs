@@ -1,24 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform
-{
-
-  using Description = System.ComponentModel.DescriptionAttribute;
-
-  public enum NetSyncConnectionStatus : int
-  {
-    [Description("UNKNOWN")]
-    Unknown,
-
-    [Description("CONNECTING")]
-    Connecting,
-
-    [Description("DISCONNECTED")]
-    Disconnected,
-
-    [Description("CONNECTED")]
-    Connected,
-
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a1f6d1aaa4062f3348e349156eab4ea353924ac313090b759d79080da7c13a8
+size 424

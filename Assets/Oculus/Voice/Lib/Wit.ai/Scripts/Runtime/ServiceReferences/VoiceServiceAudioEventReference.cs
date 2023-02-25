@@ -1,20 +1,3 @@
-/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using Facebook.WitAi.Interfaces;
-using Facebook.WitAi.Utilities;
-using UnityEngine;
-
-namespace Facebook.WitAi.ServiceReferences
-{
-    public class VoiceServiceAudioEventReference : AudioInputServiceReference
-    {
-        [SerializeField] private VoiceServiceReference _voiceServiceReference;
-        public override IAudioInputEvents AudioEvents => _voiceServiceReference.VoiceService.AudioEvents;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d33d5512c9ad9a9e25b70f168f492801fd9438b3a5e0115a0d5b3f7cb7cb20bb
+size 618

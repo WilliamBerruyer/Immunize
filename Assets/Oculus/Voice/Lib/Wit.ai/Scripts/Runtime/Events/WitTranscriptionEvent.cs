@@ -1,16 +1,3 @@
-﻿/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using System;
-using UnityEngine.Events;
-
-namespace Facebook.WitAi.Events
-{
-    [Serializable]
-    public class WitTranscriptionEvent : UnityEvent<string> { }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:625974fe1d7eed4240089acfb16e795b44015089b343df10df1233c20046e81d
+size 374

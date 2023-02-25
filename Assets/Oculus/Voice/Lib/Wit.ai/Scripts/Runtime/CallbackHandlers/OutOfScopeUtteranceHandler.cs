@@ -1,33 +1,3 @@
-﻿/*
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using Facebook.WitAi.Lib;
-using UnityEngine;
-using UnityEngine.Events;
-
-namespace Facebook.WitAi.CallbackHandlers
-{
-    /// <summary>
-    /// Triggers an event when no intents were recognized in an utterance.
-    /// </summary>
-    [AddComponentMenu("Wit.ai/Response Matchers/Out Of Domain")]
-    public class OutOfScopeUtteranceHandler : WitResponseHandler
-    {
-        [SerializeField] private UnityEvent onOutOfDomain = new UnityEvent();
-
-        protected override void OnHandleResponse(WitResponseNode response)
-        {
-            if (null == response) return;
-
-            if (response["intents"].Count == 0)
-            {
-                onOutOfDomain?.Invoke();
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:346a916ed0ebc864ae3ca41ce1d5aa6e40ec39dbd4de49f25835f0d0392d90bd
+size 920

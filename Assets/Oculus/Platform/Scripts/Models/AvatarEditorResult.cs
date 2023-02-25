@@ -1,23 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform.Models
-{
-  using System;
-  using System.Collections;
-  using Oculus.Platform.Models;
-  using System.Collections.Generic;
-  using UnityEngine;
-
-  public class AvatarEditorResult
-  {
-    /// Whether the request has sent.
-    public readonly bool RequestSent;
-
-
-    public AvatarEditorResult(IntPtr o)
-    {
-      RequestSent = CAPI.ovr_AvatarEditorResult_GetRequestSent(o);
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:18fe8e7f0222ab3dd4df124b1f8e8e3ce11a03cd4a25ad8b85c934c7c8bdf628
+size 492
