@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ImmunizeSceneOne.unity
+    guid: 40a256f275ca7a4408d8e5b9f00877b2
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9fea0fa0b2aecab43a1ac351ba7bc2ad,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2b10a119fc6d5bc45b9750238fc86b53,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 54ac578eb913b084a9bdd4561dcd89e2,
+      type: 2}
