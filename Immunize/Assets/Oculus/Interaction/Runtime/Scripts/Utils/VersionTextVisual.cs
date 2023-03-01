@@ -18,6 +18,10 @@
  * limitations under the License.
  */
 
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Collections.Specialized;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Assertions;
@@ -28,25 +32,20 @@ namespace Oculus.Interaction
     {
         [SerializeField]
         private TextMeshPro _text;
+        Weightscript weightscript;
+        public TextMeshProUGUI ScoreUI;
+        [SerializeField] public GameObject a;
 
-        protected virtual void Start()
+        // Start is called before the first frame update
+        void Start()
         {
-            Assert.IsNotNull(_text);
-            _text.text = "Version: " + Application.version;
+          weightscript = a.GetComponent<Weightscript>();
         }
 
-        #region Inject
-
-        public void InjectAllVersionTextVisual(TextMeshPro text)
+        // Update is called once per frame
+        void Update()
         {
-            InjectText(text);
+          _text.SetText(ToString()); 
         }
-
-        public void InjectText(TextMeshPro text)
-        {
-            _text = text;
-        }
-
-        #endregion
     }
 }
