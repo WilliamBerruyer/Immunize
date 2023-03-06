@@ -262,7 +262,7 @@ PrefabInstance:
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1179.337
+      value: 731.7
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -277,7 +277,7 @@ PrefabInstance:
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 589.6685
+      value: 365.85
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -322,20 +322,28 @@ PrefabInstance:
     - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_text
-      value: Macrophages are a type of white blood cell that play an important role
-        in the human immune system and carry out various functions including engulfing
-        and digesting microorganisms; clearing out debris and dead cells; and stimulating
-        other cells such as lymphocytes involved in immune function.
+      value: 'Types of white blood cells that play a central role in the adaptive
+        immune response. There are two major subtypes: "killer" and "helper" T cells.
+        Killer T-cells are able to directly kill virus-infected cells. Helper T cells
+        function by further activating memory B cells and killer T cells, which leads
+        to a larger immune response.
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_fontSize
-      value: 44
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 44
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -350,7 +358,7 @@ PrefabInstance:
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1119.337
+      value: 671.7
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -360,7 +368,7 @@ PrefabInstance:
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 589.6685
+      value: 365.85
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -405,7 +413,7 @@ PrefabInstance:
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1179.337
+      value: 731.7
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -465,12 +473,12 @@ PrefabInstance:
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.00080013275
+      value: 0.042599976
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.515
+      value: 1.5248
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -497,6 +505,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2859147190566827366, guid: bf018bf093319f840a7314cb25167d8c,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.8235294
+      objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827368, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_Enabled
@@ -520,7 +533,7 @@ PrefabInstance:
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1119.337
+      value: 671.7
       objectReference: {fileID: 0}
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -530,7 +543,7 @@ PrefabInstance:
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 589.6685
+      value: 365.85
       objectReference: {fileID: 0}
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -1521,6 +1534,11 @@ PrefabInstance:
       propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 2438834414172602222, guid: 08bd653119f9db54fb91155eb09c459a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 4289706931025778868, guid: 08bd653119f9db54fb91155eb09c459a,
         type: 3}
       propertyPath: m_Drag
@@ -1564,17 +1582,17 @@ PrefabInstance:
     - target: {fileID: 7001587203448011866, guid: 08bd653119f9db54fb91155eb09c459a,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.022
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 7001587203448011866, guid: 08bd653119f9db54fb91155eb09c459a,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.022
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 7001587203448011866, guid: 08bd653119f9db54fb91155eb09c459a,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.022
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 7001587203448011866, guid: 08bd653119f9db54fb91155eb09c459a,
         type: 3}
@@ -1640,7 +1658,8 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 4300000, guid: 9e5fdf0438d84fe498dfaf4e22a401f1, type: 3}
+      objectReference: {fileID: 4711208715938537054, guid: c2a4e1f965923104792c77e7f34fbbe0,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08bd653119f9db54fb91155eb09c459a, type: 3}
 --- !u!4 &290727911 stripped
@@ -1692,7 +1711,7 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 9e5fdf0438d84fe498dfaf4e22a401f1, type: 3}
+  m_Mesh: {fileID: 4711208715938537054, guid: c2a4e1f965923104792c77e7f34fbbe0, type: 3}
 --- !u!114 &290727917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3200,12 +3219,12 @@ PrefabInstance:
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1179.337
+      value: 731.7
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 471.46
+      value: 587.49
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -3215,12 +3234,12 @@ PrefabInstance:
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 589.6685
+      value: 365.85
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -235.73
+      value: -293.745
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190071815659, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -3260,20 +3279,23 @@ PrefabInstance:
     - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_text
-      value: Macrophages are a type of white blood cell that play an important role
-        in the human immune system and carry out various functions including engulfing
-        and digesting microorganisms; clearing out debris and dead cells; and stimulating
-        other cells such as lymphocytes involved in immune function.
+      value: "Bacteria are free-living cells that can survive on their own, inside
+        or outside the body and reproduce on their own. Most bacteria aren't harmful,
+        some are actually helpful. They live on your skin and inside your body and
+        are helpful to processes like digesting food. Fewer than 1% of bacteria cause
+        diseases in people. The discovery of antibiotics for bacterial infections
+        is considered one of the most important breakthroughs in medical history.
+        \r"
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_fontSize
-      value: 44
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 44
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -3288,22 +3310,22 @@ PrefabInstance:
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1119.337
+      value: 671.7
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 309.44
+      value: 425.47
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 589.6685
+      value: 365.85
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -286.74
+      value: -344.755
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -3343,12 +3365,12 @@ PrefabInstance:
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1179.337
+      value: 731.7
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 471.46
+      value: 587.49
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -3403,12 +3425,12 @@ PrefabInstance:
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.00080013275
+      value: 0.042599976
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.515
+      value: 1.5248
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -3435,6 +3457,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2859147190566827366, guid: bf018bf093319f840a7314cb25167d8c,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.8235294
+      objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827368, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_Enabled
@@ -3458,7 +3485,7 @@ PrefabInstance:
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1119.337
+      value: 671.7
       objectReference: {fileID: 0}
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -3468,7 +3495,7 @@ PrefabInstance:
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 589.6685
+      value: 365.85
       objectReference: {fileID: 0}
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -5130,12 +5157,12 @@ PrefabInstance:
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1179.337
+      value: 731.7
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 471.46
+      value: 388.08
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -5145,12 +5172,12 @@ PrefabInstance:
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 589.6685
+      value: 365.85
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -235.73
+      value: -194.04
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190071815659, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -5190,20 +5217,76 @@ PrefabInstance:
     - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_text
-      value: Macrophages are a type of white blood cell that play an important role
-        in the human immune system and carry out various functions including engulfing
-        and digesting microorganisms; clearing out debris and dead cells; and stimulating
-        other cells such as lymphocytes involved in immune function.
+      value: "Red blood cells (RBCs) are the most common type of blood cell and the
+        vertebrate's principal means of delivering oxygen (O2) to the body tissues
+        \u2014 via blood flow through the circulatory system."
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_fontSize
-      value: 44
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: fc41d5815b9a5bb48be4c84a746c4ff6,
+        type: 2}
+    - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
+        type: 3}
+      propertyPath: m_lineSpacing
+      value: 24.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
+        type: 3}
+      propertyPath: m_wordSpacing
+      value: -4.72
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 44
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 7032093815205813286, guid: fc41d5815b9a5bb48be4c84a746c4ff6,
+        type: 2}
+    - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: -0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
+        type: 3}
+      propertyPath: m_paragraphSpacing
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
+        type: 3}
+      propertyPath: m_horizontalMapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
+        type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -5218,22 +5301,22 @@ PrefabInstance:
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1119.337
+      value: 671.7
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 309.44
+      value: 226.06
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 589.6685
+      value: 365.85
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -286.74
+      value: -245.04999
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -5273,12 +5356,12 @@ PrefabInstance:
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1179.337
+      value: 731.7
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 471.46
+      value: 388.08
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -5333,12 +5416,12 @@ PrefabInstance:
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.00080013275
+      value: 0.042599976
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.515
+      value: 1.5248
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -5365,6 +5448,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2859147190566827366, guid: bf018bf093319f840a7314cb25167d8c,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.8235294
+      objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827368, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_Enabled
@@ -5388,7 +5476,7 @@ PrefabInstance:
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1119.337
+      value: 671.7
       objectReference: {fileID: 0}
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -5398,7 +5486,7 @@ PrefabInstance:
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 589.6685
+      value: 365.85
       objectReference: {fileID: 0}
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -5408,7 +5496,7 @@ PrefabInstance:
     - target: {fileID: 2859147191208444807, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_text
-      value: Blood Cells
+      value: Red Blood Cells
       objectReference: {fileID: 0}
     - target: {fileID: 2859147191208444807, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -5644,12 +5732,12 @@ PrefabInstance:
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1179.337
+      value: 731.7
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 471.46
+      value: 394.09998
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -5659,12 +5747,12 @@ PrefabInstance:
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 589.6685
+      value: 365.85
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -235.73
+      value: -197.04999
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190071815659, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -5704,20 +5792,20 @@ PrefabInstance:
     - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_text
-      value: Macrophages are a type of white blood cell that play an important role
-        in the human immune system and carry out various functions including engulfing
-        and digesting microorganisms; clearing out debris and dead cells; and stimulating
-        other cells such as lymphocytes involved in immune function.
+      value: B cells create antibodies that bind to pathogens or toxins to neutralize
+        them. An antibody can bind to a virus, which prevents it from entering a
+        normal cell and causing infection. B cells can also recruit other cells to
+        help destroy an infected cell.
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_fontSize
-      value: 44
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 44
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -5732,22 +5820,22 @@ PrefabInstance:
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1119.337
+      value: 671.7
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 309.44
+      value: 232.08
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 589.6685
+      value: 365.85
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -286.74
+      value: -248.06
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -5787,12 +5875,12 @@ PrefabInstance:
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1179.337
+      value: 731.7
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 471.46
+      value: 394.09998
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -5847,12 +5935,12 @@ PrefabInstance:
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.00080013275
+      value: 0.042599976
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.515
+      value: 1.433
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -5879,6 +5967,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2859147190566827366, guid: bf018bf093319f840a7314cb25167d8c,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.8235294
+      objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827368, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_Enabled
@@ -5902,7 +5995,7 @@ PrefabInstance:
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1119.337
+      value: 671.7
       objectReference: {fileID: 0}
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -5912,7 +6005,7 @@ PrefabInstance:
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 589.6685
+      value: 365.85
       objectReference: {fileID: 0}
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -6068,12 +6161,12 @@ PrefabInstance:
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1179.337
+      value: 731.7
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 471.46
+      value: 432.78
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -6083,12 +6176,12 @@ PrefabInstance:
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 589.6685
+      value: 365.85
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190071815658, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -235.73
+      value: -216.39
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190071815659, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -6136,12 +6229,12 @@ PrefabInstance:
     - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_fontSize
-      value: 44
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906338, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 44
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -6156,22 +6249,22 @@ PrefabInstance:
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1119.337
+      value: 671.7
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 309.44
+      value: 270.76
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 589.6685
+      value: 365.85
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190401906339, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -286.74
+      value: -267.4
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -6211,12 +6304,12 @@ PrefabInstance:
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1179.337
+      value: 731.7
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 471.46
+      value: 432.78
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -6271,12 +6364,12 @@ PrefabInstance:
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.00080013275
+      value: 0.042599976
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.515
+      value: 1.5248
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827361, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -6303,6 +6396,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2859147190566827366, guid: bf018bf093319f840a7314cb25167d8c,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.8235294
+      objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827368, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_Enabled
@@ -6326,7 +6424,7 @@ PrefabInstance:
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1119.337
+      value: 671.7
       objectReference: {fileID: 0}
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
@@ -6336,7 +6434,7 @@ PrefabInstance:
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 589.6685
+      value: 365.85
       objectReference: {fileID: 0}
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c,
         type: 3}

@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class resetcontrol : MonoBehaviour
 {
+    public AudioSource src;
+    public AudioClip clp;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,19 +19,19 @@ public class resetcontrol : MonoBehaviour
     {
         
     }
-
+    
     public void ResetTheGame()
     {
+        GameObject[] gameObjects;
+        gameObjects = GameObject.FindGameObjectsWithTag("Enemy");
+
+        //It will be activate the button when all enemies are killed.
+        //!!!Change code to go back to the first scene, now it only restarts the scene!!!
+        if (gameObjects.Length == 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-
-    public void LoadChess()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    }
-
-    public void LoadJenga()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }

@@ -13,12 +13,12 @@ public class moveobject : MonoBehaviour
         //Fetch the Rigidbody component you attach from your GameObject
         m_Rigidbody = GetComponent<Rigidbody>();
         //Set the speed of the GameObject
-        m_Speed = 2.0f;
+        m_Speed = 1.0f;
     }
 
     void Update()
     {
-        if (i <= 5000)
+        if (i <= 10000)
         {
             transform.Translate(Vector3.forward * m_Speed * Time.deltaTime);
             i++;
