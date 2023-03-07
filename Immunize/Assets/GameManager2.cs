@@ -4,7 +4,7 @@ using UnityEngine;
 using System.IO.Ports;
 using System.Threading;
 
-public class GameManager : MonoBehaviour
+public class GameManager2 : MonoBehaviour
 {
     // Having data sent and recieved in a seperate thread to the main game thread stops unity from freezing
     Thread IOThread = new Thread(DataThread);
@@ -18,8 +18,8 @@ public class GameManager : MonoBehaviour
     private static string outgoingMsg = "";
 
 
-    private static GameManager _instance;
-    public static GameManager Instance
+    private static GameManager2 _instance;
+    public static GameManager2 Instance
     {
         get
         {
@@ -71,21 +71,36 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (incomingMsg != "")
+        /*if (incomingMsg != "")
         {
             Debug.Log(incomingMsg);
-        }
+        }*/
 
-        /*if (Input.GetKeyDown(KeyCode.Alpha1))
+        //heat pad, heat lowers with less bacteria
+        GameObject[] gameObjects;
+        gameObjects = GameObject.FindGameObjectsWithTag("Enemy");
+       
+
+        if (gameObjects.Length == 4)
+            outgoingMsg = "4";
+        else if (gameObjects.Length == 3)
+            outgoingMsg = "3";
+        else if (gameObjects.Length == 2)
+            outgoingMsg = "2";
+        else if (gameObjects.Length == 1)
+            outgoingMsg = "1";
+        else if (gameObjects.Length == 0)
             outgoingMsg = "0";
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-            outgoingMsg = "1";*/
+
+        Debug.Log(outgoingMsg);
     }
 
     public void Vibrate()
     {
-            outgoingMsg = "5";
+        outgoingMsg = "5";
     }
 }
+
+
 
 
