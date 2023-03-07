@@ -14,27 +14,33 @@ public class DestroyGameObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
 
-        if (collision.collider.CompareTag("True"))
+        if (collision.collider.CompareTag("True"))  //White Cell
         {
             Destroy(this.gameObject);
             Destroy(collision.gameObject);
         }
 
-        if (collision.collider.CompareTag("False"))
+        if (collision.collider.CompareTag("False")) //Red Cell
         {
             //Destroy(this.gameObject);
             Destroy(collision.gameObject);
+            this.gameObject.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
         }
 
-        if (collision.collider.CompareTag("GameOverPoint"))
+        if (collision.collider.CompareTag("GameOverPoint")) //When enemies reach the HeartRoom
         {
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+
+       
     }
 }
