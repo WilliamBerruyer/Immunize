@@ -3,20 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using OculusSampleFramework;
+using System.IO;
+using System;
 
 public class PlantTouch : MonoBehaviour
 {
     [SerializeField] public string nextScene; // Name of the next scene to load
     [SerializeField] public ParticleSystem bloodParticles; // Reference to the blood particle system
+    [SerializeField] public GameObject dialog; // Reference to the blood particle system
+
+    
     public bool enableBlood;
 
-    /*private void Start()
+    private void Start()
     {
-        Invoke("LoadNextScene", 3f);
-    }*/
+        //Invoke("LoadNextScene", 3f);
+        dialog.SetActive(false);
+    }
 
     private void OnTriggerEnter(Collider other)
     {
+        Console.WriteLine("Tag");
+        Console.WriteLine(other);
         // Check if the collider belongs to a hand
         if (other.CompareTag("PlayerHand"))
         {
@@ -30,6 +38,7 @@ public class PlantTouch : MonoBehaviour
             }
             else
             {
+                dialog.SetActive(true);
                 Invoke("LoadNextScene", 1.5f);
             }
         }
