@@ -11,9 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/EntryScene.unity
     guid: 178b01b137ce1684eadbb37ff5787625
-  - enabled: 1
-    path: Assets/Chess.unity
-    guid: 47581c67520da4fbbbbc5cfd8f91b33f
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9fea0fa0b2aecab43a1ac351ba7bc2ad,
       type: 2}
