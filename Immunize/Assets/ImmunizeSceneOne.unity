@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44202968, g: 0.45022535, b: 0.47379774, a: 1}
+  m_IndirectSpecularColor: {r: 0.44202876, g: 0.45022064, b: 0.47379425, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -213,7 +213,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 134402148}
   _rigidbody: {fileID: 134402147}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 134402149}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -324,7 +324,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 290727913}
   _rigidbody: {fileID: 290727912}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 290727918}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -801,7 +801,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 2112778078}
   _rigidbody: {fileID: 2112778077}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 2112778079}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -912,7 +912,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 134402148}
   _rigidbody: {fileID: 134402147}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 134402149}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -1035,7 +1035,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 1116618813}
   _rigidbody: {fileID: 1116618812}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 1116618815}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -1229,7 +1229,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 1116618813}
   _rigidbody: {fileID: 1116618812}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 1116618815}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -1663,7 +1663,7 @@ PrefabInstance:
     - target: {fileID: 4289706931025778868, guid: 08bd653119f9db54fb91155eb09c459a,
         type: 3}
       propertyPath: m_UseGravity
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4289706931025778868, guid: 08bd653119f9db54fb91155eb09c459a,
         type: 3}
@@ -1956,7 +1956,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 134402148}
   _rigidbody: {fileID: 134402147}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 134402149}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -2067,7 +2067,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 2112778078}
   _rigidbody: {fileID: 2112778077}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 2112778079}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -2214,7 +2214,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 134402148}
   _rigidbody: {fileID: 134402147}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 134402149}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -2363,6 +2363,55 @@ MonoBehaviour:
   _grabbable: {fileID: 461143966}
   _rigidbody: {fileID: 461143965}
   _scaleMassWithSize: 1
+--- !u!114 &461143969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461143960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactableView: {fileID: 0}
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 461143965}
+        m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
+        m_MethodName: set_useGravity
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  _whenInteractorViewAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenInteractorViewRemoved:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelectingInteractorViewAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelectingInteractorViewRemoved:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &464717697
 GameObject:
   m_ObjectHideFlags: 0
@@ -2451,7 +2500,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 461143966}
   _rigidbody: {fileID: 461143965}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 461143968}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -2562,7 +2611,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 2112778078}
   _rigidbody: {fileID: 2112778077}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 2112778079}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -2673,7 +2722,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 461143966}
   _rigidbody: {fileID: 461143965}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 461143968}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -2784,7 +2833,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 2112778078}
   _rigidbody: {fileID: 2112778077}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 2112778079}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -3201,7 +3250,7 @@ PrefabInstance:
     - target: {fileID: 4289706931025778868, guid: 08bd653119f9db54fb91155eb09c459a,
         type: 3}
       propertyPath: m_UseGravity
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4289706931025778868, guid: 08bd653119f9db54fb91155eb09c459a,
         type: 3}
@@ -3217,7 +3266,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 11d03c4d3f554044790644d2f46871de, type: 2}
+      objectReference: {fileID: 2100000, guid: f3db0af819dd66a4c9e180e124454576, type: 2}
     - target: {fileID: 6418746134552452932, guid: 08bd653119f9db54fb91155eb09c459a,
         type: 3}
       propertyPath: _transferOnSecondSelection
@@ -3895,7 +3944,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 1116618813}
   _rigidbody: {fileID: 1116618812}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 1116618815}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -4124,7 +4173,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 134402148}
   _rigidbody: {fileID: 134402147}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 134402149}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -4235,7 +4284,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 2112778078}
   _rigidbody: {fileID: 2112778077}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 2112778079}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -4346,7 +4395,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 290727913}
   _rigidbody: {fileID: 290727912}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 290727918}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -4631,7 +4680,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 1116618813}
   _rigidbody: {fileID: 1116618812}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 1116618815}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -4717,6 +4766,117 @@ MonoBehaviour:
   _grabbable: {fileID: 1116618813}
   _rigidbody: {fileID: 1116618812}
   _scaleMassWithSize: 1
+--- !u!1 &1165141872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1165141873}
+  - component: {fileID: 1165141875}
+  - component: {fileID: 1165141874}
+  m_Layer: 0
+  m_Name: HandGrabInteractable_mirror
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1165141873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165141872}
+  m_LocalRotation: {x: -0.018129699, y: -0.74070114, z: -0.035513483, w: 0.6706504}
+  m_LocalPosition: {x: 0.023776542, y: -0.9056688, z: -1.6883345}
+  m_LocalScale: {x: 1.0200003, y: 1.0200003, z: 1.0200003}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 290727911}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1165141874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165141872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 622db80eec0bd344f920b1aa056ae8d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _relativeTo: {fileID: 290727911}
+  _surface: {fileID: 0}
+  _usesHandPose: 1
+  _handPose:
+    _handedness: 0
+    _fingersFreedom: 0200000002000000020000000200000002000000
+    _jointRotations:
+    - {x: 0.37538698, y: -0.42458397, z: 0.0077789994, w: 0.8238639}
+    - {x: 0.24062446, y: -0.18915823, z: -0.12255446, w: 0.94408613}
+    - {x: -0.08263651, y: 0.057368662, z: -0.14519137, w: 0.9842758}
+    - {x: 0.078542516, y: -0.048912376, z: -0.13212493, w: 0.9869048}
+    - {x: 0.03940044, y: -0.019156454, z: -0.21742433, w: 0.97509336}
+    - {x: -0.025920771, y: -0.002864109, z: -0.36970025, w: 0.92878485}
+    - {x: -0.017069655, y: 0.022591531, z: -0.18251887, w: 0.9827943}
+    - {x: -0.012138694, y: 0.042586233, z: -0.13453755, w: 0.98991853}
+    - {x: -0.012717726, y: 0.000493255, z: -0.32289162, w: 0.94635046}
+    - {x: -0.059218347, y: -0.006674014, z: -0.1653127, w: 0.984439}
+    - {x: -0.059852373, y: 0.116930686, z: -0.10967476, w: 0.9852492}
+    - {x: -0.039619353, y: -0.007432095, z: -0.306427, w: 0.95104015}
+    - {x: -0.015453054, y: -0.029578812, z: -0.23295584, w: 0.97191447}
+    - {x: -0.20703596, y: 0.14034276, z: -0.018311812, w: 0.96804166}
+    - {x: 0.0728825, y: 0.11435681, z: -0.12075346, w: 0.9833765}
+    - {x: -0.056398567, y: 0.033260953, z: -0.21071246, w: 0.975353}
+    - {x: 0.0012120679, y: -0.04856118, z: -0.14260456, w: 0.9885873}
+--- !u!114 &1165141875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165141872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 290727913}
+  _rigidbody: {fileID: 290727912}
+  _resetGrabOnGrabsUpdated: 1
+  _physicsGrabbable: {fileID: 290727918}
+  _scoringModifier:
+    _maxDistance: 0.1
+    _positionRotationWeight: 0.8
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 0
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 2
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 1
+  _handGrabPoses:
+  - {fileID: 1165141874}
 --- !u!1 &1174223208 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 614133831629110752, guid: 08bd653119f9db54fb91155eb09c459a,
@@ -4825,7 +4985,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 1116618813}
   _rigidbody: {fileID: 1116618812}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 1116618815}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -4936,7 +5096,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 461143966}
   _rigidbody: {fileID: 461143965}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 461143968}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -5373,6 +5533,117 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1310135096}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1310452718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1310452719}
+  - component: {fileID: 1310452721}
+  - component: {fileID: 1310452720}
+  m_Layer: 0
+  m_Name: HandGrabInteractable_mirror
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1310452719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310452718}
+  m_LocalRotation: {x: 0.57293546, y: 0.49506605, z: 0.4451845, w: -0.4779805}
+  m_LocalPosition: {x: -1.3142458, y: 0.11115274, z: -1.5547972}
+  m_LocalScale: {x: 1.0199999, y: 1.0199999, z: 1.0199999}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 290727911}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1310452720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310452718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 622db80eec0bd344f920b1aa056ae8d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _relativeTo: {fileID: 290727911}
+  _surface: {fileID: 0}
+  _usesHandPose: 1
+  _handPose:
+    _handedness: 0
+    _fingersFreedom: 0200000002000000020000000200000002000000
+    _jointRotations:
+    - {x: 0.375387, y: -0.424584, z: 0.007778975, w: 0.823864}
+    - {x: 0.26277155, y: -0.13693605, z: -0.19179873, w: 0.93563455}
+    - {x: -0.08258824, y: 0.05692626, z: -0.1499067, w: 0.9835986}
+    - {x: 0.07847482, y: -0.048733354, z: -0.13410345, w: 0.98665226}
+    - {x: 0.034706146, y: 0.005207329, z: -0.1938983, w: 0.98039377}
+    - {x: -0.025976155, y: -0.0025415276, z: -0.35844952, w: 0.9331843}
+    - {x: -0.017103072, y: 0.022158308, z: -0.20260626, w: 0.97886026}
+    - {x: -0.015604621, y: 0.06810647, z: -0.15208176, w: 0.985895}
+    - {x: -0.0128394, y: -0.00020675547, z: -0.3772833, w: 0.92600876}
+    - {x: -0.06131132, y: -0.0076912306, z: -0.18855235, w: 0.98011756}
+    - {x: -0.07136809, y: 0.14079726, z: -0.18264824, w: 0.9704238}
+    - {x: -0.039341226, y: -0.006786559, z: -0.28768107, w: 0.95689386}
+    - {x: -0.01432929, y: -0.02962786, z: -0.2084471, w: 0.9774798}
+    - {x: -0.20703603, y: 0.14034283, z: -0.018311827, w: 0.96804166}
+    - {x: 0.05034604, y: 0.144856, z: -0.2186253, w: 0.9636829}
+    - {x: -0.05457122, y: 0.034351863, z: -0.18781123, w: 0.98008597}
+    - {x: 0.0010833889, y: -0.04882355, z: -0.10425806, w: 0.9933504}
+--- !u!114 &1310452721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310452718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 290727913}
+  _rigidbody: {fileID: 290727912}
+  _resetGrabOnGrabsUpdated: 1
+  _physicsGrabbable: {fileID: 290727918}
+  _scoringModifier:
+    _maxDistance: 0.1
+    _positionRotationWeight: 0.8
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 0
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 2
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 1
+  _handGrabPoses:
+  - {fileID: 1310452720}
 --- !u!1001 &1389457531
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6495,7 +6766,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 461143966}
   _rigidbody: {fileID: 461143965}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 461143968}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -6700,7 +6971,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 1116618813}
   _rigidbody: {fileID: 1116618812}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 1116618815}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -6895,7 +7166,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 134402148}
   _rigidbody: {fileID: 134402147}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 134402149}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -6918,6 +7189,117 @@ MonoBehaviour:
   _handAligment: 1
   _handGrabPoses:
   - {fileID: 1785736760}
+--- !u!1 &1815384348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1815384349}
+  - component: {fileID: 1815384351}
+  - component: {fileID: 1815384350}
+  m_Layer: 0
+  m_Name: HandGrabInteractable_mirror
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1815384349
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815384348}
+  m_LocalRotation: {x: 0.8074943, y: 0.13175821, z: 0.56537086, w: -0.10463582}
+  m_LocalPosition: {x: -0.7186021, y: 0.9625535, z: -1.5591916}
+  m_LocalScale: {x: 1.0799999, y: 1.0799999, z: 1.0799999}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 290727911}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1815384350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815384348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 622db80eec0bd344f920b1aa056ae8d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _relativeTo: {fileID: 290727911}
+  _surface: {fileID: 0}
+  _usesHandPose: 1
+  _handPose:
+    _handedness: 0
+    _fingersFreedom: 0200000002000000020000000200000002000000
+    _jointRotations:
+    - {x: 0.37538695, y: -0.4245839, z: 0.0077789957, w: 0.82386386}
+    - {x: 0.268845, y: -0.21527295, z: -0.30764544, w: 0.8869796}
+    - {x: -0.08321443, y: 0.0691583, z: -0.0125679225, w: 0.994049}
+    - {x: 0.082881145, y: -0.062458828, z: 0.026211917, w: 0.9942541}
+    - {x: 0.038816966, y: -0.014009883, z: -0.22239488, w: 0.97408265}
+    - {x: -0.025975285, y: -0.0025467635, z: -0.35862723, w: 0.9331159}
+    - {x: -0.017080408, y: 0.022464024, z: -0.18849134, w: 0.9816694}
+    - {x: -0.012081585, y: 0.040893614, z: -0.13715854, w: 0.9896307}
+    - {x: -0.012946708, y: -0.0014016833, z: -0.46730292, w: 0.8840013}
+    - {x: -0.067822754, y: -0.010940872, z: -0.2627446, w: 0.9624165}
+    - {x: -0.05556993, y: 0.09493642, z: -0.07483845, w: 0.9911094}
+    - {x: -0.04098644, y: -0.011319809, z: -0.4185464, w: 0.9071994}
+    - {x: -0.018500632, y: -0.029346488, z: -0.29975724, w: 0.95338464}
+    - {x: -0.20703594, y: 0.1403428, z: -0.018311808, w: 0.96804136}
+    - {x: 0.08692102, y: 0.02726204, z: -0.07876013, w: 0.9927225}
+    - {x: -0.06877807, y: 0.024748217, z: -0.37417576, w: 0.92447263}
+    - {x: 0.0015663216, y: -0.047426566, z: -0.24983391, w: 0.9671254}
+--- !u!114 &1815384351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815384348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 290727913}
+  _rigidbody: {fileID: 290727912}
+  _resetGrabOnGrabsUpdated: 1
+  _physicsGrabbable: {fileID: 290727918}
+  _scoringModifier:
+    _maxDistance: 0.1
+    _positionRotationWeight: 0.8
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 0
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 2
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 1
+  _handGrabPoses:
+  - {fileID: 1815384350}
 --- !u!1 &1838895747
 GameObject:
   m_ObjectHideFlags: 0
@@ -7111,11 +7493,11 @@ MonoBehaviour:
   _interactorFilters: []
   _maxInteractors: -1
   _maxSelectingInteractors: -1
-  _data: {fileID: 0}
+  _data: {fileID: 461143960}
   _pointableElement: {fileID: 461143966}
   _rigidbody: {fileID: 461143965}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 461143968}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -7526,7 +7908,7 @@ PrefabInstance:
     - target: {fileID: 4289706931025778868, guid: 08bd653119f9db54fb91155eb09c459a,
         type: 3}
       propertyPath: m_UseGravity
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4289706931025778868, guid: 08bd653119f9db54fb91155eb09c459a,
         type: 3}
@@ -7723,7 +8105,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 461143966}
   _rigidbody: {fileID: 461143965}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 461143968}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -7834,7 +8216,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 290727913}
   _rigidbody: {fileID: 290727912}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 290727918}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -7945,7 +8327,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 461143966}
   _rigidbody: {fileID: 461143965}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 461143968}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -8162,7 +8544,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 2112778078}
   _rigidbody: {fileID: 2112778077}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 2112778079}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -8613,7 +8995,7 @@ PrefabInstance:
     - target: {fileID: 4289706931025778868, guid: 08bd653119f9db54fb91155eb09c459a,
         type: 3}
       propertyPath: m_UseGravity
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4289706931025778868, guid: 08bd653119f9db54fb91155eb09c459a,
         type: 3}
@@ -8810,7 +9192,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 461143966}
   _rigidbody: {fileID: 461143965}
   _resetGrabOnGrabsUpdated: 1
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 461143968}
   _scoringModifier:
     _maxDistance: 0.1
     _positionRotationWeight: 0.8
@@ -9221,7 +9603,7 @@ PrefabInstance:
     - target: {fileID: 4289706931025778868, guid: 08bd653119f9db54fb91155eb09c459a,
         type: 3}
       propertyPath: m_UseGravity
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4289706931025778868, guid: 08bd653119f9db54fb91155eb09c459a,
         type: 3}
