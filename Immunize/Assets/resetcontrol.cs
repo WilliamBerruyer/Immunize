@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class resetcontrol : MonoBehaviour
 {
-    public AudioSource src;
-    public AudioClip clp;
 
     // Start is called before the first frame update
     void Start()
@@ -29,9 +27,9 @@ public class resetcontrol : MonoBehaviour
         //!!!Change code to go back to the first scene, now it only restarts the scene!!!
         if (gameObjects.Length == 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
         }
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }

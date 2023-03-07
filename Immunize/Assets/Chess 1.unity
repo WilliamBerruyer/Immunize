@@ -4540,8 +4540,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2b2c60450fc940e2bb9f5f071df4c76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  src: {fileID: 0}
-  clp: {fileID: 8300000, guid: 3a4baf251c1814716b9458d036384a76, type: 3}
 --- !u!81 &1796248394
 AudioListener:
   m_ObjectHideFlags: 0

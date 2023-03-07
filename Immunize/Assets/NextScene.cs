@@ -21,5 +21,6 @@ public class NextScene : MonoBehaviour
     public void resetGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+        System.Console.WriteLine("test");
     }
 }
