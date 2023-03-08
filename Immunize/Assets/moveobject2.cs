@@ -14,7 +14,7 @@ public class moveobject2 : MonoBehaviour
         //Fetch the Rigidbody component you attach from your GameObject
         m_Rigidbody = GetComponent<Rigidbody>();
         //Set the speed of the GameObject
-        m_Speed = 1.5f;
+        m_Speed = 1f;
     }
 
     // Update is called once per frame

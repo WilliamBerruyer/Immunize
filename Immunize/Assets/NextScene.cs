@@ -14,7 +14,7 @@ public class NextScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        resetGame();
+       // resetGame();
     }
 
     void ToggleLight()
@@ -23,7 +23,7 @@ public class NextScene : MonoBehaviour
         pointLight.enabled = !pointLight.enabled;
     }
 
-    void changeScene()
+    public void changeScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
@@ -36,9 +36,9 @@ public class NextScene : MonoBehaviour
 
     public void resetGame()
     {
-        audioSource.mute = false;
+        //audioSource.mute = false;
         // start the repeating function
-        InvokeRepeating("ToggleLight", blinkIntervalInSecond, blinkIntervalInSecond);
+        //InvokeRepeating("ToggleLight", blinkIntervalInSecond, blinkIntervalInSecond);
         Invoke("changeScene", timeoutBlinkSecond);
         
         //System.Console.WriteLine("test");

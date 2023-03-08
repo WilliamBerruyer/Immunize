@@ -75,6 +75,7 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log(incomingMsg);
         }
+        outgoingMsg = "3";
 
         /*if (Input.GetKeyDown(KeyCode.Alpha1))
             outgoingMsg = "0";
@@ -84,7 +85,8 @@ public class GameManager : MonoBehaviour
 
     public void Vibrate()
     {
-            outgoingMsg = "4";
+            outgoingMsg = "5";
+            sp.Write(outgoingMsg);
     }
 }
 

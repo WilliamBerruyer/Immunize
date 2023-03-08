@@ -99,10 +99,8 @@ public class GameManager2 : MonoBehaviour
 
     public void Vibrate()
     {
-        Debug.Log("test");
         outgoingMsg = "5";
         sp.Write(outgoingMsg);
-        Debug.Log("value after vibrate : " + outgoingMsg);
     }
 }
 
