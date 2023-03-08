@@ -37,7 +37,7 @@ public class GameManager2 : MonoBehaviour
     private static void DataThread()
     {
         // Opens the serial port for reading and writing data
-        sp = new SerialPort("COM7", 9600); // Alter the first value to be whatever port the arduino is connected to within the arduino IDE; Alter the second value to be the same as Serial.beign at the start of the arduino program
+        sp = new SerialPort("COM3", 9600); // Alter the first value to be whatever port the arduino is connected to within the arduino IDE; Alter the second value to be the same as Serial.beign at the start of the arduino program
         sp.Open();
 
         // Every 200ms, it checks if there is a message stores in the output buffer string to be sent to the arduino,
@@ -46,8 +46,10 @@ public class GameManager2 : MonoBehaviour
         {
             if (outgoingMsg != "")
             {
+                Debug.Log("outcoming test : " + outgoingMsg);
                 sp.Write(outgoingMsg);
                 outgoingMsg = "";
+                
             }
 
             incomingMsg = sp.ReadExisting();
@@ -97,7 +99,10 @@ public class GameManager2 : MonoBehaviour
 
     public void Vibrate()
     {
+        Debug.Log("test");
         outgoingMsg = "5";
+        sp.Write(outgoingMsg);
+        Debug.Log("value after vibrate : " + outgoingMsg);
     }
 }
 

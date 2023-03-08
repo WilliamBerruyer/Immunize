@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class DestroyGameObject : MonoBehaviour
 {
+
+    public GameObject GameManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +30,7 @@ public class DestroyGameObject : MonoBehaviour
         {
             Destroy(this.gameObject);
             Destroy(collision.gameObject);
+
         }
 
         if (collision.collider.CompareTag("False")) //Red Cell
@@ -34,6 +38,7 @@ public class DestroyGameObject : MonoBehaviour
             //Destroy(this.gameObject);
             Destroy(collision.gameObject);
             this.gameObject.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
+            GameManager.GetComponent<GameManager2>().Vibrate();
         }
 
         if (collision.collider.CompareTag("GameOverPoint")) //When enemies reach the HeartRoom
